@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <script src="items.js"></script>
+        <script src="logic.js"></script>
+
+        <script src="seedrandom.min.js"></script>
+        <script src="moment.min.js"></script>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body oncontextmenu="return false;">
+        <div class="container">
+            <div class="card">
+                <div class="header">
+                    Bingo Card Randomizer
+                </div>
+                <div class="difficulty"
+                     onclick="rotateThroughDifficultyClockwise(this)"
+                     oncontextmenu="rotateThroughDifficultyCounterClockwise(this)"
+                >Normal</div>
+                <div class="seed">
+                    <input type="text" id="seedInput" >
+                    <button class="clearSeed" 
+                            onclick="clearSeedInput()"
+                    >X</button>
+                </div>
+                <div class="generatedNotifier"></div>
+                <div class="generate">
+                    <div>
+                        <button class="generateButton" 
+                                type="button"
+                                onclick="generateRandomCard()"
+                        >Generate</button>
+                    </div>
+                    <div class="copyContainer">
+                        <span class="copiedText">Copied!</span>
+                        <button class="copyButton" 
+                                type="button"
+                                disabled
+                                onclick="copyCard()"
+                        >Copy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
