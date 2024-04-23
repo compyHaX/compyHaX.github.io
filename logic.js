@@ -56,14 +56,15 @@ function getCookie(cname) {
     let name = `${cname}=`;
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(';');
-    ca.forEach(c => {
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-        }
-    })
+    for(let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
     return '';
 }
 
@@ -76,7 +77,17 @@ function checkCookies() {
     toggle_gameOver = getCookie('gameOver');
     toggle_bowserDoors = getCookie('bowserDoors');
     currentDifficulty = getCookie('difficulty');
+    
     document.getElementById('seedInput').value = getCookie('seed');
+
+    updateCheckbox(document.getElementById('variated'));
+    updateCheckbox(document.getElementById('1star'));
+    updateCheckbox(document.getElementById('beatGame'));
+    updateCheckbox(document.getElementById('50star'));
+    updateCheckbox(document.getElementById('gameOver'));
+    updateCheckbox(document.getElementById('bowserDoors'));
+
+    adjustDifficulty(document.querySelector('.difficulty'));
 
 }
 
