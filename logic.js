@@ -1,4 +1,6 @@
 const ItemCount = 25;
+const ALL_RANDOM = "all-random";
+const RANDOM     = "random";
 
 let json;
 let card;
@@ -13,9 +15,6 @@ let toggle_beatGame     = true;
 let toggle_50star       = true;
 let toggle_gameOver     = true;
 let toggle_bowserDoors  = true;
-
-const ALL_RANDOM = "all-random";
-const RANDOM     = "random";
 
 $(document.body).click((e) => {
     let closeOptions = true;
@@ -70,13 +69,14 @@ function getCookie(cname) {
 
 function checkCookies() {
 
-    toggle_variated = getCookie('variated') === 1 ? true : false;
-    toggle_1star = getCookie('1star') === 1 ? true : false;
-    toggle_beatGame = getCookie('beatGame') === 1 ? true : false;
-    toggle_50star = getCookie('50star') === 1 ? true : false;
-    toggle_gameOver = getCookie('gameOver') === 1 ? true : false;
-    toggle_bowserDoors = getCookie('bowserDoors') === 1 ? true : false;
-    currentDifficulty = getCookie('difficulty') === 1 ? true : false;
+    toggle_variated    = getCookie('variated')    === "true";
+    toggle_1star       = getCookie('1star')       === "true";
+    toggle_beatGame    = getCookie('beatGame')    === "true";
+    toggle_50star      = getCookie('50star')      === "true";
+    toggle_gameOver    = getCookie('gameOver')    === "true";
+    toggle_bowserDoors = getCookie('bowserDoors') === "true";
+    
+    currentDifficulty  = getCookie('difficulty');
     
     document.getElementById('seedInput').value = getCookie('seed');
 
