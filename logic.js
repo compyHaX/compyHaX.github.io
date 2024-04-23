@@ -80,12 +80,12 @@ function checkCookies() {
     
     document.getElementById('seedInput').value = getCookie('seed');
 
-    updateCheckbox(document.getElementById('variated'));
-    updateCheckbox(document.getElementById('1star'));
-    updateCheckbox(document.getElementById('beatGame'));
-    updateCheckbox(document.getElementById('50star'));
-    updateCheckbox(document.getElementById('gameOver'));
-    updateCheckbox(document.getElementById('bowserDoors'));
+    document.getElementById('variated').checked = toggle_variated;
+    document.getElementById('1star').checked = toggle_1star;
+    document.getElementById('beatGame').checked = toggle_beatGame;
+    document.getElementById('50star').checked = toggle_50star;
+    document.getElementById('gameOver').checked = toggle_gameOver;
+    document.getElementById('bowserDoors').checked = toggle_bowserDoors;
 
     adjustDifficulty(document.querySelector('.difficulty'));
 
