@@ -1,181 +1,5 @@
 const items = [
-  {
-    "name": "? Message Blocks",
-    "difficulty": 1,
-    "type": "dynamic",
-    "min": 4,
-    "max": 8
-  },
-  {
-    "name": "? Message Blocks",
-    "difficulty": 2,
-    "type": "dynamic",
-    "min": 12,
-    "max": 15
-  },
-  {
-    "name": "? Pipes",
-    "difficulty": 3,
-    "type": "dynamic",
-    "min": 18,
-    "max": 22
-  },
-  {
-    "name": "? Pipes",
-    "difficulty": 5,
-    "type": "dynamic",
-    "min": 27,
-    "max": 30
-  },
-  {
-    "name": "? Exits",
-    "difficulty": 2,
-    "type": "dynamic",
-    "min": 9,
-    "max": 12
-  },
-  {
-    "name": "? Exits",
-    "difficulty": 3,
-    "type": "dynamic",
-    "min": 13,
-    "max": 17
-  },
-  {
-    "name": "? Exits",
-    "difficulty": 4,
-    "type": "dynamic",
-    "min": 18,
-    "max": 22
-  },
-  {
-    "name": "? Exits",
-    "difficulty": 5,
-    "type": "dynamic",
-    "min": 23,
-    "max": 27
-  },
-  {
-    "name": "? Exits",
-    "difficulty": 6,
-    "type": "dynamic",
-    "min": 28,
-    "max": 32
-  },
-  {
-    "name": "Bowser Doors ? and ?",
-    "difficulty": 5,
-    "type": "bowserDoor",
-    "min": null,
-    "max": null
-  },
-  {
-    "name": "Bowser Doors ? and ?",
-    "difficulty": 5,
-    "type": "bowserDoor",
-    "min": null,
-    "max": null
-  },
-  {
-    "name": "Bowser Doors ? and ?",
-    "difficulty": 5,
-    "type": "bowserDoor",
-    "min": null,
-    "max": null
-  },
-  {
-    "name": "Bowser Doors ? and ?",
-    "difficulty": 5,
-    "type": "bowserDoor",
-    "min": null,
-    "max": null
-  },
-  {
-    "name": "? Yoshi Coins",
-    "difficulty": 1,
-    "type": "dynamic",
-    "min": 2,
-    "max": 4
-  },
-  {
-    "name": "? Yoshi Coins",
-    "difficulty": 3,
-    "type": "dynamic",
-    "min": 5,
-    "max": 7
-  },
-  {
-    "name": "? Yoshi Coins",
-    "difficulty": 5,
-    "type": "dynamic",
-    "min": 8,
-    "max": 10
-  },
-  {
-    "name": "? Structures",
-    "difficulty": 2,
-    "type": "dynamic",
-    "min": 3,
-    "max": 4
-  },
-  {
-    "name": "? Structures",
-    "difficulty": 3,
-    "type": "dynamic",
-    "min": 5,
-    "max": 6
-  },
-  {
-    "name": "? Structures",
-    "difficulty": 5,
-    "type": "dynamic",
-    "min": 7,
-    "max": 8
-  },
-  
-  {
-    "name": "4 Message Blocks",
-    "difficulty": 1,
-    "type": "replaced", 
-    "min": null,
-    "max": null
-  },
-  {
-    "name": "6 Message Blocks",
-    "difficulty": 1,
-    "type": "replaced", 
-    "min": null,
-    "max": null
-  },
-  {
-    "name": "8 Message Blocks",
-    "difficulty": 1,
-    "type": "replaced", 
-    "min": null,
-    "max": null
-  },
-  {
-    "name": "10 Message Blocks",
-    "difficulty": 1,
-    "type": "replaced", 
-    "min": null,
-    "max": null
-  },
-  {
-    "name": "12 Message Blocks",
-    "difficulty": 2,
-    "type": "replaced", 
-    "min": null,
-    "max": null
-  },
-  {
-    "name": "15 Message Blocks",
-    "difficulty": 4,
-    "type": "replaced", 
-    "min": null,
-    "max": null
-  },
-  {
+    {
       "name": "1 Bonus Game",
       "difficulty": 1,
       "type": "static", 
@@ -191,6 +15,13 @@ const items = [
     },
     {
       "name": "1 Switch Palace",
+      "difficulty": 1,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "10 Message Blocks",
       "difficulty": 1,
       "type": "static", 
       "min": null,
@@ -232,6 +63,13 @@ const items = [
       "max": null
     },
     {
+      "name": "4 Message Blocks",
+      "difficulty": 1,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
       "name": "4 Sublevels",
       "difficulty": 1,
       "type": "static", 
@@ -241,12 +79,26 @@ const items = [
     {
       "name": "5 Exits",
       "difficulty": 1,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
     {
       "name": "5 lives in world 1",
+      "difficulty": 1,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "6 Message Blocks",
+      "difficulty": 1,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "8 Message Blocks",
       "difficulty": 1,
       "type": "static", 
       "min": null,
@@ -374,7 +226,14 @@ const items = [
     {
       "name": "10 Exits",
       "difficulty": 2,
-      "type": "replaced", 
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "12 Message Blocks",
+      "difficulty": 2,
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -458,7 +317,7 @@ const items = [
     {
       "name": "4 Structures",
       "difficulty": 2,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -549,7 +408,7 @@ const items = [
     {
       "name": "15 Exits",
       "difficulty": 3,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -848,6 +707,13 @@ const items = [
       "max": null
     },
     {
+      "name": "15 Message Blocks",
+      "difficulty": 4,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
       "name": "2 Castles and 2 Switch Palaces",
       "difficulty": 4,
       "type": "static", 
@@ -871,7 +737,7 @@ const items = [
     {
       "name": "20 Exits",
       "difficulty": 4,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -885,7 +751,7 @@ const items = [
     {
       "name": "6 Structures",
       "difficulty": 4,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -1067,7 +933,7 @@ const items = [
     {
       "name": "Enter 20 Pipes",
       "difficulty": 4,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -1109,7 +975,7 @@ const items = [
     {
       "name": "25 Exits",
       "difficulty": 5,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -1179,7 +1045,7 @@ const items = [
     {
       "name": "8 Structures",
       "difficulty": 5,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -1249,28 +1115,28 @@ const items = [
     {
       "name": "Bowser Castle door 1 and 5",
       "difficulty": 5,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
     {
       "name": "Bowser Castle doors 2 and 6",
       "difficulty": 5,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
     {
       "name": "Bowser Castle doors 3 and 7",
       "difficulty": 5,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
     {
       "name": "Bowser Castle doors 4 and 8",
       "difficulty": 5,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -1333,7 +1199,7 @@ const items = [
     {
       "name": "Enter 30 Pipes",
       "difficulty": 5,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -1403,7 +1269,7 @@ const items = [
     {
       "name": "30 Exits",
       "difficulty": 6,
-      "type": "replaced", 
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -1494,7 +1360,7 @@ const items = [
     {
       "name": "Beat the game",
       "difficulty": 6,
-      "type": "beatGame", 
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -1522,14 +1388,14 @@ const items = [
     {
       "name": "1 star at Goal point",
       "difficulty": 7,
-      "type": "1star", 
+      "type": "static", 
       "min": null,
       "max": null
     },
     {
       "name": "50 stars at Goal point",
       "difficulty": 7,
-      "type": "50star", 
+      "type": "static", 
       "min": null,
       "max": null
     },
@@ -1571,7 +1437,7 @@ const items = [
     {
       "name": "Game over",
       "difficulty": 7,
-      "type": "gameOver", 
+      "type": "static", 
       "min": null,
       "max": null
     },

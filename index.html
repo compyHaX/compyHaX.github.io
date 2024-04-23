@@ -1,7 +1,9 @@
 <html>
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+
         <script src="items.js"></script>
-        <script src="logic.js"></script>
+        <script src="difficulty.js"></script>
 
         <script src="seedrandom.min.js"></script>
         <script src="moment.min.js"></script>
@@ -10,7 +12,7 @@
 
         <link rel="stylesheet" href="style.css">
     </head>
-    <body oncontextmenu="return false;">
+    <body oncontextmenu="return false;" onload="checkCookies()">
         <div class="container">
             <div class="card">
                 <div class="header">
@@ -20,8 +22,100 @@
                      onclick="rotateThroughDifficultyClockwise(this)"
                      oncontextmenu="rotateThroughDifficultyCounterClockwise(this)"
                 >Normal</div>
+                <div class="options">
+                    <button class="optionsButton" onclick="showAllOptions()">Show Options +</button>
+                    <div class="allOptions">
+                        <div class="allOptionsContainer">
+                            <div class="allOptionsContent">
+
+                                <div class="optionContainer">
+                                    <label class="optionLabel" for="variated">Variated Items:</label>
+                                    <label class="switch">
+                                        <input id="variated" 
+                                               onclick="updateCheckbox(this)"
+                                               class="optionInput"
+                                               type="checkbox" 
+                                               checked
+                                        >
+                                        <span class="slider"></span>
+                                    </label>
+                                </div>
+
+                                <div class="optionContainer">
+                                    <label class="optionLabel" for="1star">1&#9733; at Goal:</label>
+                                    <label class="switch">
+                                        <input id="1star" 
+                                               onclick="updateCheckbox(this)"
+                                               class="optionInput"
+                                               type="checkbox" 
+                                               checked
+                                        >
+                                        <span class="slider"></span>
+                                    </label>
+                                </div>
+
+                                <div class="optionContainer">
+                                    <label class="optionLabel" for="beatGame">Beat the Game:</label>
+                                    <label class="switch">
+                                        <input id="beatGame" 
+                                               onclick="updateCheckbox(this)"
+                                               class="optionInput"
+                                               type="checkbox" 
+                                               checked
+                                        >
+                                        <span class="slider"></span>
+                                    </label>
+                                </div>
+                                
+                                <div class="optionContainer">
+                                    <label class="optionLabel" for="50star">50&#9733; at Goal:</label>
+                                    <label class="switch">
+                                        <input id="50star" 
+                                               onclick="updateCheckbox(this)"
+                                               class="optionInput"
+                                               type="checkbox" 
+                                               checked
+                                        >
+                                        <span class="slider"></span>
+                                    </label>
+                                </div>
+
+                                <div class="optionContainer">
+                                    <label class="optionLabel" for="gameOver">Game Over:</label>
+                                    <label class="switch">
+                                        <input id="gameOver" 
+                                               onclick="updateCheckbox(this)"
+                                               class="optionInput"
+                                               type="checkbox" 
+                                               checked
+                                        >
+                                        <span class="slider"></span>
+                                    </label>
+                                </div>
+
+                                <div class="optionContainer">
+                                    <label class="optionLabel" for="bowserDoors">Bowser Doors:</label>
+                                    <label class="switch">
+                                        <input id="bowserDoors" 
+                                               onclick="updateCheckbox(this)"
+                                               class="optionInput"
+                                               type="checkbox" 
+                                               checked
+                                        >
+                                        <span class="slider"></span>
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="seed">
-                    <input type="text" id="seedInput" placeholder="Seed">
+                    <input type="text" 
+                           id="seedInput" 
+                           placeholder="Seed"
+                           onblur="updateSeed()"
+                    >
                     <button class="clearSeed" 
                             onclick="clearSeedInput()"
                     >X</button>
@@ -45,5 +139,6 @@
                 </div>
             </div>
         </div>
+        <script src="logic.js"></script>
     </body>
 </html>
