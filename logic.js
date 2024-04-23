@@ -70,13 +70,13 @@ function getCookie(cname) {
 
 function checkCookies() {
 
-    toggle_variated = getCookie('variated');
-    toggle_1star = getCookie('1star');
-    toggle_beatGame = getCookie('beatGame');
-    toggle_50star = getCookie('50star');
-    toggle_gameOver = getCookie('gameOver');
-    toggle_bowserDoors = getCookie('bowserDoors');
-    currentDifficulty = getCookie('difficulty');
+    toggle_variated = getCookie('variated') === 1 ? true : false;
+    toggle_1star = getCookie('1star') === 1 ? true : false;
+    toggle_beatGame = getCookie('beatGame') === 1 ? true : false;
+    toggle_50star = getCookie('50star') === 1 ? true : false;
+    toggle_gameOver = getCookie('gameOver') === 1 ? true : false;
+    toggle_bowserDoors = getCookie('bowserDoors') === 1 ? true : false;
+    currentDifficulty = getCookie('difficulty') === 1 ? true : false;
     
     document.getElementById('seedInput').value = getCookie('seed');
 
