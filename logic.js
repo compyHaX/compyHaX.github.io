@@ -57,10 +57,10 @@ function getCookie(cname) {
     let ca = decodedCookie.split(';');
     for(let i = 0; i < ca.length; i++) {
       let c = ca[i];
-      while (c.charAt(0) == ' ') {
+      while (c.charAt(0) === ' ') {
         c = c.substring(1);
       }
-      if (c.indexOf(name) == 0) {
+      if (c.indexOf(name) === 0) {
         return c.substring(name.length, c.length);
       }
     }
@@ -69,22 +69,26 @@ function getCookie(cname) {
 
 function checkCookies() {
 
-    toggle_variated    = getCookie('variated')    === "true";
-    toggle_1star       = getCookie('1star')       === "true";
-    toggle_beatGame    = getCookie('beatGame')    === "true";
-    toggle_50star      = getCookie('50star')      === "true";
-    toggle_gameOver    = getCookie('gameOver')    === "true";
-    toggle_bowserDoors = getCookie('bowserDoors') === "true";
-    
-    currentDifficulty  = getCookie('difficulty');
-    
-    document.getElementById('seedInput').value = getCookie('seed');
+    const temp_difficulty= getCookie('difficulty');
+    const temp_seed      = getCookie('seed');
 
-    document.getElementById('variated').checked = toggle_variated;
-    document.getElementById('1star').checked = toggle_1star;
-    document.getElementById('beatGame').checked = toggle_beatGame;
-    document.getElementById('50star').checked = toggle_50star;
-    document.getElementById('gameOver').checked = toggle_gameOver;
+    toggle_variated    = getCookie('variated')    !== "false";
+    toggle_1star       = getCookie('1star')       !== "false";
+    toggle_beatGame    = getCookie('beatGame')    !== "false";
+    toggle_50star      = getCookie('50star')      !== "false";
+    toggle_gameOver    = getCookie('gameOver')    !== "false";
+    toggle_bowserDoors = getCookie('bowserDoors') !== "false";
+
+    if (temp_difficulty !== '') currentDifficulty  = temp_difficulty;
+
+    if (temp_seed !== '') document.getElementById('seedInput').value = temp_seed;
+
+
+    document.getElementById('variated').checked    = toggle_variated;
+    document.getElementById('1star').checked       = toggle_1star;
+    document.getElementById('beatGame').checked    = toggle_beatGame;
+    document.getElementById('50star').checked      = toggle_50star;
+    document.getElementById('gameOver').checked    = toggle_gameOver;
     document.getElementById('bowserDoors').checked = toggle_bowserDoors;
 
     adjustDifficulty(document.querySelector('.difficulty'));
