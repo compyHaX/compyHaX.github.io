@@ -21,7 +21,13 @@
                 <div class="difficulty"
                      onclick="rotateThroughDifficultyClockwise(this)"
                      oncontextmenu="rotateThroughDifficultyCounterClockwise(this)"
-                >Normal</div>
+                >
+                    <img src="" class="difficultyIcon">
+                    <div class="difficultyText">
+                        <div class="difficultyName">Hammer Bro</div>
+                        <div class="difficultyNickname">Normal</div>
+                    </div>
+                </div>
                 <div class="options">
                     <button class="optionsButton" onclick="showAllOptions()">Show Options +</button>
                     <div class="allOptions">
@@ -42,35 +48,9 @@
                                 </div>
 
                                 <div class="optionContainer">
-                                    <label class="optionLabel" for="1star">1&#9733; at Goal:</label>
-                                    <label class="switch">
-                                        <input id="1star" 
-                                               onclick="updateCheckbox(this)"
-                                               class="optionInput"
-                                               type="checkbox" 
-                                               checked
-                                        >
-                                        <span class="slider"></span>
-                                    </label>
-                                </div>
-
-                                <div class="optionContainer">
                                     <label class="optionLabel" for="beatGame">Beat the Game:</label>
                                     <label class="switch">
                                         <input id="beatGame" 
-                                               onclick="updateCheckbox(this)"
-                                               class="optionInput"
-                                               type="checkbox" 
-                                               checked
-                                        >
-                                        <span class="slider"></span>
-                                    </label>
-                                </div>
-                                
-                                <div class="optionContainer">
-                                    <label class="optionLabel" for="50star">50&#9733; at Goal:</label>
-                                    <label class="switch">
-                                        <input id="50star" 
                                                onclick="updateCheckbox(this)"
                                                class="optionInput"
                                                type="checkbox" 

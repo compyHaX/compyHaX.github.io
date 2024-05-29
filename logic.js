@@ -9,10 +9,10 @@ let currentDifficulty = 2;
 
 let showOptions = false;
 
+// let toggle_1star        = true;
+// let toggle_50star       = true;
 let toggle_variated     = true;
-let toggle_1star        = true;
 let toggle_beatGame     = true;
-let toggle_50star       = true;
 let toggle_gameOver     = true;
 let toggle_bowserDoors  = true;
 
@@ -72,10 +72,10 @@ function checkCookies() {
     const temp_difficulty= getCookie('difficulty');
     const temp_seed      = getCookie('seed');
 
+    // toggle_1star       = getCookie('1star')       !== "false";
+    // toggle_50star      = getCookie('50star')      !== "false";
     toggle_variated    = getCookie('variated')    !== "false";
-    toggle_1star       = getCookie('1star')       !== "false";
     toggle_beatGame    = getCookie('beatGame')    !== "false";
-    toggle_50star      = getCookie('50star')      !== "false";
     toggle_gameOver    = getCookie('gameOver')    !== "false";
     toggle_bowserDoors = getCookie('bowserDoors') !== "false";
 
@@ -84,10 +84,10 @@ function checkCookies() {
     if (temp_seed !== '') document.getElementById('seedInput').value = temp_seed;
 
 
+    // document.getElementById('1star').checked       = toggle_1star;
+    // document.getElementById('50star').checked      = toggle_50star;
     document.getElementById('variated').checked    = toggle_variated;
-    document.getElementById('1star').checked       = toggle_1star;
     document.getElementById('beatGame').checked    = toggle_beatGame;
-    document.getElementById('50star').checked      = toggle_50star;
     document.getElementById('gameOver').checked    = toggle_gameOver;
     document.getElementById('bowserDoors').checked = toggle_bowserDoors;
 
@@ -121,10 +121,10 @@ function updateCheckbox(e) {
 }
 
 function updateCookies() {
+    // setCookie('1star', toggle_1star, 30);
+    // setCookie('50star', toggle_50star, 30);
     setCookie('variated', toggle_variated, 30);
-    setCookie('1star', toggle_1star, 30);
     setCookie('beatGame', toggle_beatGame, 30);
-    setCookie('50star', toggle_50star, 30);
     setCookie('gameOver', toggle_gameOver, 30);
     setCookie('bowserDoors', toggle_bowserDoors, 30);
     setCookie('difficulty', currentDifficulty, 30)
@@ -189,7 +189,9 @@ function rotateThroughDifficultyCounterClockwise(e) {
 }
 
 function adjustDifficulty(e) {
-    e.innerText = Difficulty[currentDifficulty].name;
+    e.querySelector('.difficultyIcon').src = `./icons/${Difficulty[currentDifficulty].icon}`;
+    e.querySelector('.difficultyName').innerText = Difficulty[currentDifficulty].name;
+    e.querySelector('.difficultyNickname').innerText = Difficulty[currentDifficulty].nickname;
 
     if (Difficulty[currentDifficulty].type === "all-random") {
         e.classList.add("all-random");
@@ -213,10 +215,10 @@ function removeItemsFromList(list = [], filter) {
 }
 
 function getToggles() {
+    // toggle_1star        = document.getElementById('1star').checked;
+    // toggle_beatGame     = document.getElementById('50star').checked;
     toggle_variated     = document.getElementById('variated').checked;
-    toggle_1star        = document.getElementById('1star').checked;
     toggle_50star       = document.getElementById('beatGame').checked;
-    toggle_beatGame     = document.getElementById('50star').checked;
     toggle_gameOver     = document.getElementById('gameOver').checked;
     toggle_bowserDoors  = document.getElementById('bowserDoors').checked;
 }
@@ -226,8 +228,8 @@ function checkAllToggles(list) {
 
     if (!toggle_variated)       list = removeItemsFromList(list, 'dynamic');
     else                        list = removeItemsFromList(list, 'replaced');
-    if (!toggle_1star)          list = removeItemsFromList(list, '1star');
-    if (!toggle_50star)         list = removeItemsFromList(list, '50star');
+    // if (!toggle_1star)          list = removeItemsFromList(list, '1star');
+    // if (!toggle_50star)         list = removeItemsFromList(list, '50star');
     if (!toggle_beatGame)       list = removeItemsFromList(list, 'beatGame');
     if (!toggle_gameOver)       list = removeItemsFromList(list, 'gameOver');
     if (!toggle_bowserDoors)    list = removeItemsFromList(list, 'bowserDoor');

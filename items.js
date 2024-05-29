@@ -14,14 +14,14 @@ const items = [
     "max": 15
   },
   {
-    "name": "? Pipes",
+    "name": "Enter ? Pipes",
     "difficulty": 3,
     "type": "dynamic",
     "min": 18,
     "max": 22
   },
   {
-    "name": "? Pipes",
+    "name": "Enter ? Pipes",
     "difficulty": 5,
     "type": "dynamic",
     "min": 27,
@@ -1135,7 +1135,7 @@ const items = [
       "max": null
     },
     {
-      "name": "1 star in 4 worlds (Power-up)",
+      "name": "1 Star in 4 worlds (Power-up)",
       "difficulty": 5,
       "type": "static", 
       "min": null,
@@ -1520,16 +1520,16 @@ const items = [
       "max": null
     },
     {
-      "name": "1 star at Goal point",
+      "name": "1 Star at Goal point",
       "difficulty": 7,
-      "type": "1star", 
+      "type": "static", 
       "min": null,
       "max": null
     },
     {
       "name": "50 stars at Goal point",
       "difficulty": 7,
-      "type": "50star", 
+      "type": "static", 
       "min": null,
       "max": null
     },

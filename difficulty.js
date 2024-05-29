@@ -1,86 +1,8 @@
-const OldDifficulty = [
-    { 
-        name: "Very Easy", 
-        css: "--very-easy",
-        dist: [ 
-            1, 1, 1, 1, 1,
-            1, 1, 1, 1, 1,
-            1, 1, 1, 1, 1,
-            1, 1, 1, 2, 2,
-            2, 2, 2, 2, 3,
-         ]
-    },
-    { 
-        name: "Easy", 
-        css: "--easy",
-        dist: [ 
-            1, 1, 1, 1, 1,
-            1, 1, 2, 2, 2,
-            2, 2, 2, 2, 2,
-            2, 3, 3, 3, 3,
-            3, 3, 3, 3, 4,
-         ]
-    },
-    { 
-        name: "Normal", 
-        css: "--normal",
-        dist: [ 
-            1, 1, 1, 1, 1,
-            2, 2, 2, 2, 2,
-            2, 2, 3, 3, 3,
-            3, 3, 3, 3, 3,
-            3, 3, 4, 4, 5,
-         ]
-    },
-    { 
-        name: "Hard", 
-        css: "--hard",
-        dist: [ 
-            1, 1, 1, 2, 2,
-            2, 2, 3, 3, 3,
-            3, 3, 3, 4, 4,
-            4, 4, 4, 5, 5,
-            5, 5, 6, 6, 7,
-         ]
-    },
-    { 
-        name: "Very Hard", 
-        css: "--very-hard",
-        dist: [ 
-            1, 2, 2, 3, 3,
-            3, 3, 3, 3, 3, 
-            4, 4, 4, 4, 4,
-            4, 5, 5, 5, 5,
-            6, 6, 6, 6, 7,
-         ]
-    },
-    { 
-        name: "Extreme", 
-        css: "--extreme",
-        dist: [ 
-            2, 2, 3, 3, 3,
-            3, 4, 4, 4, 4,
-            5, 5, 5, 5, 5,
-            5, 6, 6, 6, 6,
-            6, 7, 7, 7, 7,
-         ]
-    },
-    { 
-        name: "Insane", 
-        css: "--insane",
-        dist: [ 
-            3, 3, 3, 4, 4,
-            4, 4, 4, 4, 5,
-            5, 5, 5, 5, 6,
-            6, 6, 6, 6, 6, 
-            6, 7, 7, 7, 7,
-         ]
-    },
-];
-
 const Difficulty = [
     { 
-        name: "Very Easy", 
+        name: "Goomba", 
+        nickname: "Very Easy",
+        icon: "goomba.gif",
         css: "--very-easy",
         dist: [ 
             1, 1, 1, 1, 1,
@@ -92,7 +14,9 @@ const Difficulty = [
          type: "difficulty",
     },
     { 
-        name: "Easy", 
+        name: "Koopa", 
+        nickname: "Easy",
+        icon: "koopa.gif",
         css: "--easy",
         dist: [ 
             1, 1, 1, 1, 1,
@@ -104,7 +28,9 @@ const Difficulty = [
          type: "difficulty",
     },
     { 
-        name: "Normal", 
+        name: "Hammer Bro", 
+        nickname: "Normal",
+        icon: "hammer.gif",
         css: "--normal",
         dist: [ 
             1, 1, 1, 1, 1,
@@ -116,7 +42,9 @@ const Difficulty = [
          type: "difficulty",
     },
     { 
-        name: "Hard", 
+        name: "Chargin' Chuck", 
+        nickname: "Hard",
+        icon: "chuck.gif",
         css: "--hard",
         dist: [ 
             1, 1, 1, 1, 2,
@@ -128,7 +56,9 @@ const Difficulty = [
          type: "difficulty",
     },
     { 
-        name: "Very Hard", 
+        name: "Magikoopa", 
+        nickname: "Very Hard",
+        icon: "magikoopa.gif",
         css: "--very-hard",
         dist: [ 
             1, 1, 1, 2, 2,
@@ -140,7 +70,9 @@ const Difficulty = [
          type: "difficulty",
     },
     { 
-        name: "Extreme", 
+        name: "Reznor", 
+        nickname: "Extreme",
+        icon: "reznor.gif",
         css: "--extreme",
         dist: [ 
             1, 2, 2, 3, 3,
@@ -152,7 +84,9 @@ const Difficulty = [
          type: "difficulty",
     },
     { 
-        name: "Insane", 
+        name: "Bowser", 
+        nickname: "Absolutely Insane",
+        icon: "bowser.gif",
         css: "--insane",
         dist: [ 
             1, 3, 3, 3, 4,
@@ -165,6 +99,8 @@ const Difficulty = [
     },
     {
         name: "Balanced",
+        nickname: "As All Things Should Be",
+        icon: "balanced.gif",
         css: "--balanced",
         dist: [
             1, 1, 1, 1, 2,
@@ -177,12 +113,16 @@ const Difficulty = [
     },
     {
         name: "Random Difficulty",
+        nickname: "For the Indecisive",
+        icon: "random.gif",
         css: "--random",
         dist: [],
         type: "random",
     },
     {
-        name: "All Random",
+        name: "Pure Random",
+        nickname: "Let's Get Crazy!!!",
+        icon: "chaos.gif",
         css: "--all-random",
         dist: [],
         type: "all-random",
