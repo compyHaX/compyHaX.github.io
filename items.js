@@ -323,6 +323,13 @@ const items = [
       "max": null
     },
     {
+      "name": "2 Ghost Houses ? 2 Switch Palaces",
+      "difficulty": 2,
+      "type": "or", 
+      "min": "AND",
+      "max": "OR"
+    },
+    {
       "name": "1 Starworld entrance",
       "difficulty": 2,
       "type": "static", 
@@ -1121,22 +1128,43 @@ const items = [
       "max": null
     },
     {
-      "name": "Starworld All Exits (10)",
+      "name": "Starworld All Exits (10) OR 1 Fortress",
       "difficulty": 5,
       "type": "static", 
       "min": null,
       "max": null
     },
     {
-      "name": "1 Fort",
-      "difficulty": 5,
+      "name": "1 Autoscroller, No Shortcuts",
+      "difficulty": 4,
       "type": "static", 
       "min": null,
       "max": null
     },
     {
       "name": "1 Star in 4 worlds (Power-up)",
-      "difficulty": 5,
+      "difficulty": 4,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Die to Lava in 3 Worlds",
+      "difficulty": 4,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Kill 2 Enemies with 1 Yellow Yoshi Stomp",
+      "difficulty": 4,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Red Switch Palace OR Unlock Special World",
+      "difficulty": 4,
       "type": "static", 
       "min": null,
       "max": null
@@ -1325,6 +1353,20 @@ const items = [
     },
     {
       "name": "Kill a Pufferfish",
+      "difficulty": 5,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Die to Lava in 4 Worlds",
+      "difficulty": 5,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Star World 5 AND Vanilla Dome 1 (Both Exits)",
       "difficulty": 5,
       "type": "static", 
       "min": null,
@@ -1520,21 +1562,84 @@ const items = [
       "max": null
     },
     {
-      "name": "1 Star at Goal point",
-      "difficulty": 7,
+      "name": "All Yoshi Coins of 1 Level in 5 Worlds (5)",
+      "difficulty": 6,
       "type": "static", 
       "min": null,
       "max": null
     },
     {
-      "name": "50 stars at Goal point",
-      "difficulty": 7,
+      "name": "Eat a Disco Shell in 3 Worlds",
+      "difficulty": 6,
       "type": "static", 
       "min": null,
       "max": null
+    },
+    {
+      "name": "Eat a Wiggler",
+      "difficulty": 6,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Star World Entrance in World 4",
+      "difficulty": 6,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Vanilla Dome 4 OR Castle 4",
+      "difficulty": 6,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "? at Goal Post",
+      "difficulty": 7,
+      "type": "or", 
+      "min": "1 Star",
+      "max": "50 Stars"
     },
     {
       "name": "99 Total Lives",
+      "difficulty": 7,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "\"111\" on Timer at Level End",
+      "difficulty": 7,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "1 Star in 5 Worlds (Power-up)",
+      "difficulty": 7,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "2 Autoscrollers, No Shortcuts",
+      "difficulty": 7,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Eat 22 Koopas in Star World 4",
+      "difficulty": 7,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Tubular no P Balloon",
       "difficulty": 7,
       "type": "static", 
       "min": null,
@@ -1588,5 +1693,173 @@ const items = [
       "type": "static", 
       "min": null,
       "max": null
-    }
+    },
+    {
+      "name": "1 P-Balloon in 3 Worlds",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "10 Structures",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "12 Levels All Yoshi Coins",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "35 Exits",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "4 Switch Palaces OR 4 Ghost Houses",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "5 Moons",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "All Springs in Special World (3)",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "All Springs in World 5 (3)",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "All Yoshi Coins of 1 Level in 6 Worlds (6)",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Blue Switch Palace",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Both Exits of 1 Level in 4 Worlds",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Bowser Castle All Doors",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Kill 1 Chuck in 6 Worlds",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Kill a Galoomba in 2 Worlds",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Kill a Whistling Chuck",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Kill 3 Urchins in Forest of Illusion 2",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Mondo AND Vanilla Secret 3",
+      "difficulty": 8,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "2 Fortresses",
+      "difficulty": 9,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "All 1-Ups in Forest Secret Area (4)",
+      "difficulty": 9,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "4 Levels All Yoshi Coins in World 5",
+      "difficulty": 9,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Castle 5",
+      "difficulty": 9,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Forest of Illusion 4 AND Way Cool",
+      "difficulty": 9,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "Special World All Exits (8)",
+      "difficulty": 9,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
+    {
+      "name": "World 4 All Exits (7)",
+      "difficulty": 9,
+      "type": "static", 
+      "min": null,
+      "max": null
+    },
    ]

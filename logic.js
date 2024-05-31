@@ -1,12 +1,12 @@
 const ItemCount = 25;
 const ALL_RANDOM = "all-random";
 const RANDOM     = "random";
+const STARTING_DIFFICULTY = 2;
 
 let json;
 let card;
 
-let currentDifficulty = 2;
-
+let currentDifficulty = STARTING_DIFFICULTY;
 let showOptions = false;
 
 // let toggle_1star        = true;
@@ -171,7 +171,9 @@ function showAllOptions() {
 }
 
 function getDifficulty(e) {
-    currentDifficulty = Difficulty.findIndex(d => d.name === e.innerText);
+    difficultyName = e.querySelector('.difficultyName');
+
+    currentDifficulty = Difficulty.findIndex(d => d.name === difficultyName.innerText);
 }
 
 function rotateThroughDifficultyClockwise(e) {
@@ -193,6 +195,9 @@ function adjustDifficulty(e) {
     e.querySelector('.difficultyName').innerText = Difficulty[currentDifficulty].name;
     e.querySelector('.difficultyNickname').innerText = Difficulty[currentDifficulty].nickname;
 
+    e.querySelector('.difficultyWorlds').innerText = Difficulty[currentDifficulty].worlds;
+    e.querySelector('.difficultyExtras').innerText = Difficulty[currentDifficulty].extras;
+    
     if (Difficulty[currentDifficulty].type === "all-random") {
         e.classList.add("all-random");
     } else {
@@ -218,7 +223,7 @@ function getToggles() {
     // toggle_1star        = document.getElementById('1star').checked;
     // toggle_beatGame     = document.getElementById('50star').checked;
     toggle_variated     = document.getElementById('variated').checked;
-    toggle_50star       = document.getElementById('beatGame').checked;
+    toggle_beatGame     = document.getElementById('beatGame').checked;
     toggle_gameOver     = document.getElementById('gameOver').checked;
     toggle_bowserDoors  = document.getElementById('bowserDoors').checked;
 }
@@ -235,6 +240,21 @@ function checkAllToggles(list) {
     if (!toggle_bowserDoors)    list = removeItemsFromList(list, 'bowserDoor');
     
     return list;
+}
+
+function calculatedOrGoals(list, rng) {
+    const filtered = list.map(x => {
+        if (x.type === 'or') {
+            const seed = Math.abs(rng.int32());
+            const selector = seed % 2;
+
+            x.name = x.name.replace("?", 
+                selector === 1 ? x.max : x.min
+            );
+        }
+
+        return x;
+    })
 }
 
 function calculateVariated(list, rng) {
@@ -299,6 +319,8 @@ function generateRandomCard() {
     let difficulties = [];
 
     rng = new Math.seedrandom(seedText);
+
+    calculatedOrGoals(tempItems, rng);
 
     if (toggle_variated) calculateVariated(tempItems, rng);
 
