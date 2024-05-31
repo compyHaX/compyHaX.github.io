@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="Super Mario World"
+   x="0px"
+   y="0px"
+   viewBox="0 0 435 127"
+   style="enable-background:new 0 0 435 127;"
+   xml:space="preserve"
+   sodipodi:docname="Super_Mario_World.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs24" /><sodipodi:namedview
+   id="namedview24"
+   pagecolor="#ffffff"
+   bordercolor="#111111"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="1"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="3.3034483"
+   inkscape:cx="240.65762"
+   inkscape:cy="77.192067"
+   inkscape:window-width="1729"
+   inkscape:window-height="1351"
+   inkscape:window-x="823"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Super Mario World" />
+<style
+   type="text/css"
+   id="style1">
+	.A{clip-path:url(#SVGID_2_);fill:#005482;}
+	.B{clip-path:url(#SVGID_2_);fill:none;stroke:#005482;stroke-width:0.709;stroke-miterlimit:3.864;}
+	.C{clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#72BF44;}
+	.D{clip-path:url(#SVGID_2_);fill:none;stroke:#000000;stroke-width:2.849;stroke-miterlimit:3.864;}
+	.E{clip-path:url(#SVGID_2_);fill:#00A1E4;}
+	.F{clip-path:url(#SVGID_2_);fill:#ED145A;}
+	.G{clip-path:url(#SVGID_2_);}
+	.H{clip-path:url(#SVGID_2_);fill:none;stroke:#000000;stroke-width:4.647;stroke-miterlimit:3.864;}
+	.I{clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#00A1E4;}
+	.J{clip-path:url(#SVGID_2_);fill:#72BF44;}
+	.K{clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFDD00;}
+	.L{clip-path:url(#SVGID_2_);fill:#FFDD00;}
+</style>
+<g
+   id="g24">
+	<defs
+   id="defs1">
+		<rect
+   id="SVGID_1_"
+   width="435"
+   height="127" />
+	</defs>
+	<clipPath
+   id="SVGID_2_">
+		<use
+   xlink:href="#SVGID_1_"
+   style="overflow:visible;"
+   id="use1" />
+	</clipPath>
+	<polyline
+   class="A"
+   points="175.8,6.3 158.8,42 179.1,42.5 185.1,34 190.4,42.7 205.8,40 212.1,30.1 212.1,41.5 222.4,41.7    222.7,35.5 235.1,33.9 235.6,44.2 256.1,38.3 256.2,42.9 267.6,40.9 267.9,34.9 275.5,41.9 285,35.7 277.6,29.5 277.6,28.6    280.6,25.2 280.6,11.6 274.2,5 209.3,12.9 205.7,7.9 194.4,9.9 193.9,6.3 175.8,6.3  "
+   clip-path="url(#SVGID_2_)"
+   id="polyline1" />
+	<polygon
+   class="B"
+   points="175.8,6.3 158.8,42 179.1,42.5 185.1,34 190.4,42.7 205.8,40 212.1,30.1 212.1,41.5 222.4,41.7    222.7,35.5 235.1,33.9 235.6,44.2 256.1,38.3 256.2,42.9 267.6,40.9 267.9,34.9 275.5,41.9 285,35.7 277.6,29.5 277.6,28.6    280.6,25.2 280.6,11.6 274.2,5 209.3,12.9 205.7,7.9 194.4,9.9 193.9,6.3  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon1" />
+	<path
+   class="C"
+   d="M258.5,11.4l5.4-0.4l0.5,1.6l-4.5,6.4h-1.4V11.4 M248.7,2.5l16.8-0.9l7,6.7v10.7l-3.8,4l7.4,7.7l-8.3,5.3   l-9.5-7.9l-0.1,6.8l-9,1.3L248.7,2.5z"
+   clip-path="url(#SVGID_2_)"
+   id="path1" />
+	<path
+   class="D"
+   d="M258.5,11.4l5.4-0.4l0.5,1.6l-4.5,6.4h-1.4V11.4z M248.7,2.5l16.8-0.9l7,6.7v10.7l-3.8,4l7.4,7.7l-8.3,5.3   l-9.5-7.9l-0.1,6.8l-9,1.3L248.7,2.5z"
+   clip-path="url(#SVGID_2_)"
+   id="path2" />
+	<polygon
+   class="E"
+   points="179.8,2.6 188.4,2.6 188.4,25.2 193.9,23.7 193.9,5.1 200.3,3.8 200.9,27.5 197.2,33.6 183.2,36.2    178.9,30  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon2" />
+	<polygon
+   class="D"
+   points="179.8,2.6 188.4,2.6 188.4,25.2 193.9,23.7 193.9,5.1 200.3,3.8 200.9,27.5 197.2,33.6 183.2,36.2    178.9,30  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon3" />
+	<polygon
+   class="F"
+   points="161.6,2.5 176.4,2.5 173.2,8.9 166,8.9 164.1,12.5 177.6,24.6 170,36.4 152.2,36.4 155.9,29.7    162,29.7 165.2,24.8 153.4,13.5  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon4" />
+	<polygon
+   class="D"
+   points="161.6,2.5 176.4,2.5 173.2,8.9 166,8.9 164.1,12.5 177.6,24.6 170,36.4 152.2,36.4 155.9,29.7    162,29.7 165.2,24.8 153.4,13.5  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon5" />
+	<polygon
+   class="E"
+   points="228.3,37.6 225.8,6.7 243.8,3.6 241.8,11.5 234.8,12.8 234.6,16.9 244,16.3 242.8,21.9 234.8,23.6    236,29.3 247.5,25.6 250.8,30.8  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon6" />
+	<polygon
+   class="D"
+   points="228.3,37.6 225.8,6.7 243.8,3.6 241.8,11.5 234.8,12.8 234.6,16.9 244,16.3 242.8,21.9 234.8,23.6    236,29.3 247.5,25.6 250.8,30.8  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon7" />
+	<polyline
+   class="A"
+   points="232.1,124.5 245.4,123.7 252,108.9 256.1,123.7 267,123.1 270.9,112.6 282.5,124.5 310.2,119.4    314.5,109.5 314.7,122.9 331.3,122.9 332.3,111 349.6,125.9 356.7,119.8 388.5,124.5 389.5,121.4 415.5,120.2 430.7,103.4    429.3,77.8 415.3,64 395.3,67.3 351,61.6 350,69 343.6,63.4 330.9,65.1 305.3,67.3 247.3,80 240.3,64 221.9,67.9 232.1,124.5  "
+   clip-path="url(#SVGID_2_)"
+   id="polyline7" />
+	<polygon
+   class="B"
+   points="232.1,124.5 245.4,123.7 252,108.9 256.1,123.7 267,123.1 270.9,112.6 282.5,124.5 310.2,119.4    314.5,109.5 314.7,122.9 331.3,122.9 332.3,111 349.6,125.9 356.7,119.8 388.5,124.5 389.5,121.4 415.5,120.2 430.7,103.4    429.3,77.8 415.3,64 395.3,67.3 351,61.6 350,69 343.6,63.4 330.9,65.1 305.3,67.3 247.3,80 240.3,64 221.9,67.9  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon8" />
+	<polyline
+   class="A"
+   points="14.1,123.5 31.7,125.3 34.3,107.1 41.5,120.8 45.8,112.4 49.7,114.4 57.3,116.5 60.2,124.1    88.4,114.2 87.8,126.1 104.8,123.9 122.1,125.1 122.9,111.2 137.2,125.1 170.6,122.6 171.7,121.8 178.2,125.3 198.9,122.9    211.6,108.5 210.8,82.1 198.1,67.7 131.3,65.5 96.2,68.3 65.5,63 63,67.1 34.5,64.2 33.3,67.3 20.6,66.5 14.1,123.5  "
+   clip-path="url(#SVGID_2_)"
+   id="polyline8" />
+	<polygon
+   class="B"
+   points="14.1,123.5 31.7,125.3 34.3,107.1 41.5,120.8 45.8,112.4 49.7,114.4 57.3,116.5 60.2,124.1    88.4,114.2 87.8,126.1 104.8,123.9 122.1,125.1 122.9,111.2 137.2,125.1 170.6,122.6 171.7,121.8 178.2,125.3 198.9,122.9    211.6,108.5 210.8,82.1 198.1,67.7 131.3,65.5 96.2,68.3 65.5,63 63,67.1 34.5,64.2 33.3,67.3 20.6,66.5  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon9" />
+	<polyline
+   class="G"
+   points="426.3,51.1 422.7,51.1 422.7,62.6 425.2,62.6 425.2,54.7 425.2,54.7 427.5,62.6 429.4,62.6    431.7,54.7 431.7,54.7 431.7,62.6 434.2,62.6 434.2,51.1 430.6,51.1 428.5,58.1 426.3,51.1  "
+   clip-path="url(#SVGID_2_)"
+   id="polyline9" />
+	<polyline
+   class="G"
+   points="420.9,51.1 412.9,51.1 412.9,53.4 415.6,53.4 415.6,62.6 418.2,62.6 418.2,53.4 420.9,53.4    420.9,51.1  "
+   clip-path="url(#SVGID_2_)"
+   id="polyline10" />
+	<path
+   class="C"
+   d="M174.5,81l8.8,6.4l-7,8.4l-8.2-6.4L174.5,81 M186.2,62.6l10.7,12.5l0.8,25.8L187,112.6l-20.5,2.9l-11.7-7   l-1.6-31.4l11.1-12.7L186.2,62.6z"
+   clip-path="url(#SVGID_2_)"
+   id="path10" />
+	<path
+   class="H"
+   d="M174.5,81l8.8,6.4l-7,8.4l-8.2-6.4L174.5,81z M186.2,62.6l10.7,12.5l0.8,25.8L187,112.6l-20.5,2.9l-11.7-7   l-1.6-31.4l11.1-12.7L186.2,62.6z"
+   clip-path="url(#SVGID_2_)"
+   id="path11" />
+	<polygon
+   class="F"
+   points="142.3,61 153.2,61 157.3,112.6 137.2,114.2  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon11" />
+	<polygon
+   class="H"
+   points="142.3,61 153.2,61 157.3,112.6 137.2,114.2  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon12" />
+	<path
+   class="I"
+   d="M72.7,76.3l-9,12.7l12.5,2.9L72.7,76.3 M67.1,59.7l-25.2,47.1l10.5,3.1l8.4-8.4l16.4,4.3l0.2,9.6L95,114   L81.5,62.4L67.1,59.7z"
+   clip-path="url(#SVGID_2_)"
+   id="path12" />
+	<path
+   class="H"
+   d="M72.7,76.3l-9,12.7l12.5,2.9L72.7,76.3z M67.1,59.7l-25.2,47.1l10.5,3.1l8.4-8.4l16.4,4.3l0.2,9.6L95,114   L81.5,62.4L67.1,59.7z"
+   clip-path="url(#SVGID_2_)"
+   id="path13" />
+	<polygon
+   class="J"
+   points="10,60.1 24.1,61.4 29.2,75.7 37.8,59.3 50.1,60.8 62.2,108.5 48.5,113.4 38.2,88 28.6,107.3    20.6,93.5 16.9,114.9 3,113.6  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon13" />
+	<polygon
+   class="H"
+   points="10,60.1 24.1,61.4 29.2,75.7 37.8,59.3 50.1,60.8 62.2,108.5 48.5,113.4 38.2,88 28.6,107.3    20.6,93.5 16.9,114.9 3,113.6  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon14" />
+	<path
+   class="K"
+   d="M111.6,71.6l7.8,0.4l2.3,1.4l-7.6,10.2l-3.7-0.4L111.6,71.6 M96.9,59.5l29.3,0.4l7.6,8.2l-2.1,18l-6.8,5.9   l19.5,21.5l-18,1.8l-17-16.2l-1.2,15.2l-13.3-0.2L96.9,59.5z"
+   clip-path="url(#SVGID_2_)"
+   id="path14" />
+	<path
+   class="H"
+   d="M111.6,71.6l7.8,0.4l2.3,1.4l-7.6,10.2l-3.7-0.4L111.6,71.6z M96.9,59.5l29.3,0.4l7.6,8.2l-2.1,18l-6.8,5.9   l19.5,21.5l-18,1.8l-17-16.2l-1.2,15.2l-13.3-0.2L96.9,59.5z"
+   clip-path="url(#SVGID_2_)"
+   id="path15" />
+	<path
+   class="K"
+   d="M213.6,12.8l4.6,0.3l1,1.9l-4,5.8h-1.4L213.6,12.8 M205.4,2.3h14.1l7.3,8.3l1.3,9.4l-5.9,7.9l-8.7,1.6v5.7   h-8.4L205.4,2.3z"
+   clip-path="url(#SVGID_2_)"
+   id="path16" />
+	<path
+   class="D"
+   d="M213.6,12.8l4.6,0.3l1,1.9l-4,5.8h-1.4L213.6,12.8z M205.4,2.3h14.1l7.3,8.3l1.3,9.4l-5.9,7.9l-8.7,1.6v5.7   h-8.4L205.4,2.3z"
+   clip-path="url(#SVGID_2_)"
+   id="path17" />
+	<path
+   class="K"
+   d="M375.6,60.8l27.7-2l12.5,11.9l1.2,24.6l-14.3,16l-24.2,1L375.6,60.8 M392,75.1l9.8,3.5l1.4,8.8L393,93.8   l-1.6-0.8L392,75.1z"
+   clip-path="url(#SVGID_2_)"
+   id="path18"
+   style="fill:#72bf44;fill-opacity:1" />
+	<path
+   class="H"
+   d="M375.6,60.8l27.7-2l12.5,11.9l1.2,24.6l-14.3,16l-24.2,1L375.6,60.8z M392,75.1l9.8,3.5l1.4,8.8L393,93.8   l-1.6-0.8L392,75.1z"
+   clip-path="url(#SVGID_2_)"
+   id="path19" />
+	<polygon
+   class="F"
+   points="351,58.3 364.7,59.9 363.3,95.4 379.3,98.9 375.8,114.9 346.7,110.4  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon19" />
+	<polygon
+   class="H"
+   points="351,58.3 364.7,59.9 363.3,95.4 379.3,98.9 375.8,114.9 346.7,110.4  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon20" />
+	<path
+   class="C"
+   d="M320.7,73.3l7.8,0.4l2.3,1.4l-7.6,10.2l-3.7-0.4L320.7,73.3 M306.3,57.9l25.4,0.2l11.5,10.2L342,84.7l-6.6,7   l13.1,15.2l-11.5,7.8l-18.2-17l-1.2,15.2l-13.3-0.2L306.3,57.9z"
+   clip-path="url(#SVGID_2_)"
+   id="path20" />
+	<path
+   class="H"
+   d="M320.7,73.3l7.8,0.4l2.3,1.4l-7.6,10.2l-3.7-0.4L320.7,73.3z M306.3,57.9l25.4,0.2l11.5,10.2L342,84.7l-6.6,7   l13.1,15.2l-11.5,7.8l-18.2-17l-1.2,15.2l-13.3-0.2L306.3,57.9z"
+   clip-path="url(#SVGID_2_)"
+   id="path21" />
+	<path
+   class="I"
+   d="M280.5,81l9,6.6l-7.8,9l-8.2-7.4L280.5,81 M291.6,63l10.2,9.8l6.6,20.9l-11.1,16.4l-26.2,4.5L258.8,104   l-1-27.7l11.7-10L291.6,63z"
+   clip-path="url(#SVGID_2_)"
+   id="path22" />
+	<path
+   class="H"
+   d="M280.5,81l9,6.6l-7.8,9l-8.2-7.4L280.5,81z M291.6,63l10.2,9.8l6.6,20.9l-11.1,16.4l-26.2,4.5L258.8,104   l-1-27.7l11.7-10L291.6,63z"
+   clip-path="url(#SVGID_2_)"
+   id="path23" />
+	<polygon
+   class="L"
+   points="211.6,61.8 227,58.5 233.1,87.4 241.3,71.6 247.7,82.1 257.1,59.3 271.1,64.9 253.8,113.2    245.4,113.4 240.5,100.5 232.9,114 221.5,114.4  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon23" />
+	<polygon
+   class="H"
+   points="211.6,61.8 227,58.5 233.1,87.4 241.3,71.6 247.7,82.1 257.1,59.3 271.1,64.9 253.8,113.2    245.4,113.4 240.5,100.5 232.9,114 221.5,114.4  "
+   clip-path="url(#SVGID_2_)"
+   id="polygon24" />
+</g>
+</svg>

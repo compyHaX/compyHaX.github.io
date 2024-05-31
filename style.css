@@ -12,7 +12,7 @@
     --very-easy:        rgb(006, 185, 021);
     --easy:             rgb(004, 189, 189);
     --normal:           rgb(037, 047, 179);
-    --hard:             rgb(196, 186, 045);
+    --hard:             rgb(124, 116, 0);
     --very-hard:        rgb(187, 090, 000);
     --extreme:          rgb(199, 033, 033);
     --insane:           rgb(000, 000, 000);
@@ -64,6 +64,13 @@ body {
 }
 
 .difficulty {
+    width: calc(100% - 66px);
+    /* height: 135px; */
+    display: grid;
+    grid-template-columns: 60px 1fr 60px;
+    column-gap: 1rem;
+    align-items: center;
+    justify-items: center;
     font-size: 1rem;
     font-family: MarioFont;
     user-select: none;
@@ -76,6 +83,25 @@ body {
 
     &:hover {
         opacity: .9;
+    }
+
+    & .difficultyText {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    & .difficultyNickname {
+        margin-top: 1rem;
+        font-size: .75rem;
+    }
+
+    & .difficultyLevels {
+        font-size: .75rem;
+        width: 100%;
+        text-align: center;
+        justify-self: right;
     }
 }
 
@@ -121,6 +147,7 @@ body {
     background-color: var(--white);
 
     top: 50px;
+    row-gap: 1rem !important;
     z-index: 3;
     padding: 15px;
     width: calc(100% - 30px);
