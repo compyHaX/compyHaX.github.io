@@ -41,7 +41,7 @@ $(document.body).click((e) => {
         showOptions = false;
         toggleOptions();
     }
-    
+
 });
 
 function setCookie(cname, cvalue, exdays) {
@@ -163,15 +163,13 @@ function toggleOptions() {
 }
 
 function showAllOptions() {
-    if (!showOptions) {
-        showOptions = true;
-    }
+    showOptions = !showOptions;
 
     toggleOptions();
 }
 
 function getDifficulty(e) {
-    difficultyName = e.querySelector('.difficultyName');
+    let difficultyName = e.querySelector('.difficultyName');
 
     currentDifficulty = Difficulty.findIndex(d => d.name === difficultyName.innerText);
 }
@@ -197,8 +195,8 @@ function adjustDifficulty(e) {
 
     e.querySelector('.difficultyWorlds').innerText = Difficulty[currentDifficulty].worlds;
     e.querySelector('.difficultyExtras').innerText = Difficulty[currentDifficulty].extras;
-    
-    if (Difficulty[currentDifficulty].type === "all-random") {
+
+    if (Difficulty[currentDifficulty].type === ALL_RANDOM) {
         e.classList.add("all-random");
     } else {
         e.classList.remove("all-random");
@@ -214,9 +212,7 @@ function clearSeedInput() {
 }
 
 function removeItemsFromList(list = [], filter) {
-    const filtered = list.filter(l => l.type !== filter);
-    
-    return filtered;
+    return list.filter(l => l.type !== filter);
 }
 
 function getToggles() {
@@ -238,7 +234,7 @@ function checkAllToggles(list) {
     if (!toggle_beatGame)       list = removeItemsFromList(list, 'beatGame');
     if (!toggle_gameOver)       list = removeItemsFromList(list, 'gameOver');
     if (!toggle_bowserDoors)    list = removeItemsFromList(list, 'bowserDoor');
-    
+
     return list;
 }
 
@@ -248,7 +244,7 @@ function calculatedOrGoals(list, rng) {
             const seed = Math.abs(rng.int32());
             const selector = seed % 2;
 
-            x.name = x.name.replace("?", 
+            x.name = x.name.replace("?",
                 selector === 1 ? x.max : x.min
             );
         }
@@ -262,7 +258,7 @@ function calculateVariated(list, rng) {
         if (x.type === 'dynamic') {
             const seed = Math.abs(rng.int32());
             const difference = (x.max - x.min) + 1;
-            
+
             x.name = x.name.replace("?", (seed % difference) + x.min);
         }
 
@@ -279,7 +275,7 @@ function calculateBowserDoors(list, rng) {
             const seed1 = Math.abs(rng.int32());
             const firstIndex = seed1 % firstDoors.length
             const firstDoor  = firstDoors[firstIndex];
-            
+
             const seed2 = Math.abs(rng.int32());
             const secondIndex = seed2 % secondDoors.length;
             const secondDoor = secondDoors[secondIndex];
@@ -305,9 +301,9 @@ function generateRandomCard() {
     let tempItems = JSON.parse(JSON.stringify(items));
 
     tempItems = checkAllToggles(tempItems);
-    
+
     let trueRandom = false;
-    
+
     let seedText = document.querySelector('#seedInput').value;
     let rng, seedNum;
 
@@ -315,7 +311,7 @@ function generateRandomCard() {
         rng = new Math.seedrandom();
         seedText = rng.int32().toString();
     }
-    
+
     let difficulties = [];
 
     rng = new Math.seedrandom(seedText);
@@ -325,19 +321,19 @@ function generateRandomCard() {
     if (toggle_variated) calculateVariated(tempItems, rng);
 
     if (toggle_bowserDoors) calculateBowserDoors(tempItems, rng);
-    
+
     getDifficulty(document.querySelector('.difficulty'));
 
-    if (Difficulty[currentDifficulty].type === "random") {
+    if (Difficulty[currentDifficulty].type === RANDOM) {
         currentDifficulty = Math.abs(rng.int32()) % (Difficulty.length - 2);
     }
-    if (Difficulty[currentDifficulty].type === "all-random") {
+    if (Difficulty[currentDifficulty].type === ALL_RANDOM) {
         trueRandom = true;
     }
 
     for (let i = 0; i < ItemCount; i++) {
         let itemDifficulty, availableItems;
-        
+
         seedNum = Math.abs(rng.int32());
 
         if (trueRandom) {
@@ -366,12 +362,13 @@ function generateRandomCard() {
 
 function copyCard() {
 
-    navigator.clipboard.writeText(JSON.stringify(card));
-    const copiedText = document.querySelector(`.copiedText`);
+    navigator.clipboard.writeText(JSON.stringify(card)).then(r => {
+        const copiedText = document.querySelector(`.copiedText`);
 
-    copiedText.classList.add("show");
+        copiedText.classList.add("show");
 
-    setTimeout(() => {
-        copiedText.classList.remove("show");
-    }, '1000');
+        setTimeout(() => {
+            copiedText.classList.remove("show");
+        }, '1000');
+    });
 }

@@ -10,13 +10,12 @@
         
         <title>SMW Bingo Card Randomizer</title>
 
+        <script src="logic.js"></script>
         <link rel="stylesheet" href="style.css?v=1.0.0">
     </head>
     <body oncontextmenu="return false;" onload="checkCookies()">
         <div class="container">
             <div class="card">
-<!-- TODO ADD LOGO -->
-
                 <div class="header">
                     <img src="icons/logo.svg" style="margin-bottom: 10px;">
                     <span>Bingo Card Randomizer</span>
@@ -117,7 +116,7 @@
                     </div>
                     <div class="copyContainer">
                         <span class="copiedText">Copied!</span>
-                        <button class="copyButton" 
+                        <button class="copyButton"
                                 type="button"
                                 disabled
                                 onclick="copyCard()"
@@ -126,6 +125,5 @@
                 </div>
             </div>
         </div>
-        <script src="logic.js"></script>
     </body>
 </html>
