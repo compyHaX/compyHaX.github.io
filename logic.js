@@ -189,8 +189,6 @@ function getItems() {
     const itemsOwner = allItems.find((i) => i.version === version);
 
     items = itemsOwner.items;
-
-    console.log(items);
 }
 
 function adjustDifficulty() {
