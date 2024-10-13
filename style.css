@@ -58,7 +58,7 @@ body {
 .header {
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: MarioFont;
+    font-family: MarioFont, serif;
     user-select: none;
     margin-bottom: 1rem;
 }
@@ -71,19 +71,6 @@ body {
     column-gap: 1rem;
     align-items: center;
     justify-items: center;
-    font-size: 1rem;
-    font-family: MarioFont;
-    user-select: none;
-    border: var(--black) .2rem solid;
-    border-radius: 1rem;
-    padding: 1rem 2rem;
-    background-color: var(--normal);
-    color: var(--white);
-    cursor: pointer;
-
-    &:hover {
-        opacity: .9;
-    }
 
     & .difficultyText {
         display: grid;
@@ -114,7 +101,7 @@ body {
 
 .optionsButton {
     font-size: 1rem;
-    font-family: MarioFont;
+    font-family: MarioFont, serif;
     user-select: none;
     border: var(--black) .2rem solid;
     border-radius: 1rem;
@@ -126,6 +113,16 @@ body {
     &:hover {
         opacity: .9;
     }
+}
+
+.itemVersion {
+    justify-self: right;
+    height: 0;
+}
+.itemVersioning {
+    font-size: 1rem;
+    outline: none;
+    border: none
 }
 
 .allOptions {
@@ -142,15 +139,16 @@ body {
 
 .allOptionsContent {
     display: none;
-    position: relative;
+    position: absolute;
 
     background-color: var(--white);
 
-    top: 50px;
+    top: 0;
+    left: -268px;
     row-gap: 1rem !important;
     z-index: 3;
     padding: 15px;
-    width: calc(100% - 30px);
+    width: 500px;
 
     border: var(--black) .2rem solid;
     border-radius: 1rem;
@@ -158,7 +156,6 @@ body {
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
-    row-gap: 5px;
 
     box-shadow: .25rem .25rem .5rem var(--black);
 }
@@ -171,7 +168,7 @@ body {
 
 .optionLabel {
     font-size: .9em;
-    font-family: MarioFont;
+    font-family: MarioFont, serif;
     text-align: right;
     padding-right: 5px;
     user-select: none;
@@ -245,18 +242,17 @@ input:focus + .slider {
     padding-block: 0;
     padding-inline: 0;
     font-size: 1rem;
-    font-family: MarioFont;
+    font-family: MarioFont, serif;
     outline: none;
 }
 
 .clearSeed {
     font-size: .75rem;
-    font-family: MarioFont;
+    font-family: MarioFont, serif;
     user-select: none;
     border: var(--black) .15rem solid;
     border-radius: .3rem;
-    padding: 7px;
-    padding-left: 9px;
+    padding: 7px 7px 7px 9px;
     background-color: var(--extreme);
     color: var(--white);
     cursor: pointer;
@@ -272,7 +268,7 @@ input:focus + .slider {
 
 .generatedNotifier {
     font-size: 1rem;
-    font-family: MarioFont;
+    font-family: MarioFont, serif;
     color: var(--very-easy);
     text-align: center;
 }
@@ -283,12 +279,12 @@ input:focus + .slider {
     align-items: center;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
-    column-span: 1rem;
+    /*column-span: 1rem;*/
 }
 
 .generateButton {
     font-size: 1rem;
-    font-family: MarioFont;
+    font-family: MarioFont, serif;
     padding: 1rem 2rem;
     background-color: var(--very-easy);
     color: var(--white);
@@ -311,7 +307,7 @@ input:focus + .slider {
 
 .copyButton {
     font-size: 1rem;
-    font-family: MarioFont;
+    font-family: MarioFont, serif;
     padding: 1rem 2rem;
     background-color: var(--easy);
     color: var(--white);
@@ -347,7 +343,7 @@ input:focus + .slider {
     padding: 15px;
     background-color: var(--very-easy);
     color: var(--white);
-    font-family: MarioFont;
+    font-family: MarioFont, serif;
     font-size: small;
     border-radius: 1rem;
     user-select: none;
@@ -356,7 +352,7 @@ input:focus + .slider {
 
 @keyframes copyAnimation {
     from { 
-        bottom: 0%;
+        bottom: 0;
         opacity: 1;
     }
     to { 

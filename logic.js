@@ -1,16 +1,19 @@
+let version = '1.1';
+
+let Difficulty, items;
+
+Difficulty = difficulties.find(d => d.version === version).difficulty;
+
 const ItemCount = 25;
 const ALL_RANDOM = "all-random";
 const RANDOM     = "random";
 const STARTING_DIFFICULTY = 2;
 
-let json;
 let card;
 
 let currentDifficulty = STARTING_DIFFICULTY;
 let showOptions = false;
 
-// let toggle_1star        = true;
-// let toggle_50star       = true;
 let toggle_variated     = true;
 let toggle_beatGame     = true;
 let toggle_gameOver     = true;
@@ -72,8 +75,6 @@ function checkCookies() {
     const temp_difficulty= getCookie('difficulty');
     const temp_seed      = getCookie('seed');
 
-    // toggle_1star       = getCookie('1star')       !== "false";
-    // toggle_50star      = getCookie('50star')      !== "false";
     toggle_variated    = getCookie('variated')    !== "false";
     toggle_beatGame    = getCookie('beatGame')    !== "false";
     toggle_gameOver    = getCookie('gameOver')    !== "false";
@@ -83,37 +84,28 @@ function checkCookies() {
 
     if (temp_seed !== '') document.getElementById('seedInput').value = temp_seed;
 
-
-    // document.getElementById('1star').checked       = toggle_1star;
-    // document.getElementById('50star').checked      = toggle_50star;
     document.getElementById('variated').checked    = toggle_variated;
     document.getElementById('beatGame').checked    = toggle_beatGame;
     document.getElementById('gameOver').checked    = toggle_gameOver;
     document.getElementById('bowserDoors').checked = toggle_bowserDoors;
 
-    adjustDifficulty(document.querySelector('.difficulty'));
-
+    getItems();
+    adjustDifficulty();
 }
 
-function updateCheckbox(e) {
-    switch (e.id) {
+function updateCheckbox(event) {
+    switch (event.id) {
         case 'variated':
-            toggle_variated     = e.checked;
-            break;
-        case '1star':
-            toggle_1star        = e.checked;
+            toggle_variated    = event.checked;
             break;
         case 'beatGame':
-            toggle_beatGame     = e.checked;
-            break;
-        case '50star':
-            toggle_50star       = e.checked;
+            toggle_beatGame    = event.checked;
             break;
         case 'gameOver':
-            toggle_gameOver     = e.checked;
+            toggle_gameOver    = event.checked;
             break;
         case 'bowserDoors':
-            toggle_bowserDoors  = e.checked;
+            toggle_bowserDoors = event.checked;
             break;
     }
 
@@ -121,8 +113,6 @@ function updateCheckbox(e) {
 }
 
 function updateCookies() {
-    // setCookie('1star', toggle_1star, 30);
-    // setCookie('50star', toggle_50star, 30);
     setCookie('variated', toggle_variated, 30);
     setCookie('beatGame', toggle_beatGame, 30);
     setCookie('gameOver', toggle_gameOver, 30);
@@ -158,7 +148,6 @@ function toggleOptions() {
     }
     if (!showOptions) {
         options.style.display = "none";
-        return;
     }
 }
 
@@ -174,33 +163,54 @@ function getDifficulty(e) {
     currentDifficulty = Difficulty.findIndex(d => d.name === difficultyName.innerText);
 }
 
-function rotateThroughDifficultyClockwise(e) {
+function rotateThroughDifficultyClockwise() {
     if (currentDifficulty >= Difficulty.length - 1) currentDifficulty = 0;
     else currentDifficulty++;
 
-    adjustDifficulty(e);
+    adjustDifficulty();
 }
 
-function rotateThroughDifficultyCounterClockwise(e) {
+function rotateThroughDifficultyCounterClockwise() {
     if (currentDifficulty <= 0) currentDifficulty = Difficulty.length - 1;
     else currentDifficulty--;
 
-    adjustDifficulty(e);
+    adjustDifficulty();
 }
 
-function adjustDifficulty(e) {
-    e.querySelector('.difficultyIcon').src = `./icons/${Difficulty[currentDifficulty].icon}`;
-    e.querySelector('.difficultyName').innerText = Difficulty[currentDifficulty].name;
-    e.querySelector('.difficultyNickname').innerText = Difficulty[currentDifficulty].nickname;
+function changeVersion() {
+    const versionSelect = document.querySelector('#itemVersioning');
+    version = versionSelect.value;
 
-    e.querySelector('.difficultyWorlds').innerText = Difficulty[currentDifficulty].worlds;
-    e.querySelector('.difficultyExtras').innerText = Difficulty[currentDifficulty].extras;
+    getItems();
+    adjustDifficulty();
+}
+
+function getItems() {
+    const itemsOwner = allItems.find((i) => i.version === version);
+
+    items = itemsOwner.items;
+
+    console.log(items);
+}
+
+function adjustDifficulty() {
+    const difficultyElement = document.querySelector('.difficulty')
+
+    const difficultyOwner = difficulties.find(d => d.version === version);
+    Difficulty = difficultyOwner.difficulty;
+
+    difficultyElement.querySelector('.difficultyIcon').src = `./icons/${Difficulty[currentDifficulty].icon}`;
+    difficultyElement.querySelector('.difficultyName').innerText = Difficulty[currentDifficulty].name;
+    difficultyElement.querySelector('.difficultyNickname').innerText = Difficulty[currentDifficulty].nickname;
+
+    difficultyElement.querySelector('.difficultyWorlds').innerText = Difficulty[currentDifficulty].worlds;
+    difficultyElement.querySelector('.difficultyExtras').innerText = Difficulty[currentDifficulty].extras;
 
     if (Difficulty[currentDifficulty].type === ALL_RANDOM) {
-        e.classList.add("all-random");
+        difficultyElement.classList.add("all-random");
     } else {
-        e.classList.remove("all-random");
-        e.style.backgroundColor = `var(${Difficulty[currentDifficulty].css})`;
+        difficultyElement.classList.remove("all-random");
+        difficultyElement.style.backgroundColor = `var(${Difficulty[currentDifficulty].css})`;
     }
 
     updateCookies();
@@ -216,8 +226,6 @@ function removeItemsFromList(list = [], filter) {
 }
 
 function getToggles() {
-    // toggle_1star        = document.getElementById('1star').checked;
-    // toggle_beatGame     = document.getElementById('50star').checked;
     toggle_variated     = document.getElementById('variated').checked;
     toggle_beatGame     = document.getElementById('beatGame').checked;
     toggle_gameOver     = document.getElementById('gameOver').checked;
@@ -229,8 +237,6 @@ function checkAllToggles(list) {
 
     if (!toggle_variated)       list = removeItemsFromList(list, 'dynamic');
     else                        list = removeItemsFromList(list, 'replaced');
-    // if (!toggle_1star)          list = removeItemsFromList(list, '1star');
-    // if (!toggle_50star)         list = removeItemsFromList(list, '50star');
     if (!toggle_beatGame)       list = removeItemsFromList(list, 'beatGame');
     if (!toggle_gameOver)       list = removeItemsFromList(list, 'gameOver');
     if (!toggle_bowserDoors)    list = removeItemsFromList(list, 'bowserDoor');
@@ -239,7 +245,7 @@ function checkAllToggles(list) {
 }
 
 function calculatedOrGoals(list, rng) {
-    const filtered = list.map(x => {
+    list.map(x => {
         if (x.type === 'or') {
             const seed = Math.abs(rng.int32());
             const selector = seed % 2;
@@ -254,7 +260,7 @@ function calculatedOrGoals(list, rng) {
 }
 
 function calculateVariated(list, rng) {
-    const filtered = list.map(x => {
+    list.map(x => {
         if (x.type === 'dynamic') {
             const seed = Math.abs(rng.int32());
             const difference = (x.max - x.min) + 1;
@@ -291,7 +297,7 @@ function calculateBowserDoors(list, rng) {
     });
 }
 
-function updateSeed(e) {
+function updateSeed() {
     updateCookies();
 }
 
@@ -311,8 +317,6 @@ function generateRandomCard() {
         rng = new Math.seedrandom();
         seedText = rng.int32().toString();
     }
-
-    let difficulties = [];
 
     rng = new Math.seedrandom(seedText);
 
@@ -347,8 +351,6 @@ function generateRandomCard() {
         const cardItemName = availableItems[index].name;
         const tempIndex = tempItems.findIndex(item => item.name === cardItemName);
 
-        difficulties.push(availableItems[index].difficulty);
-
         card.push({ name: cardItemName });
 
         tempItems.splice(tempIndex, 1);
@@ -362,7 +364,7 @@ function generateRandomCard() {
 
 function copyCard() {
 
-    navigator.clipboard.writeText(JSON.stringify(card)).then(r => {
+    navigator.clipboard.writeText(JSON.stringify(card)).then(() => {
         const copiedText = document.querySelector(`.copiedText`);
 
         copiedText.classList.add("show");

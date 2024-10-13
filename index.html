@@ -1,6 +1,6 @@
-<html>
+<html lang="en">
     <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
         <script src="items.js"></script>
         <script src="difficulty.js"></script>
@@ -16,15 +16,27 @@
     <body oncontextmenu="return false;" onload="checkCookies()">
         <div class="container">
             <div class="card">
-                <div class="header">
-                    <img src="icons/logo.svg" style="margin-bottom: 10px;">
-                    <span>Bingo Card Randomizer</span>
+                <div class="itemVersion">
+                    <label for="itemVersioning"></label>
+                    <select class="itemVersioning"
+                            name="itemVersioning"
+                            id="itemVersioning"
+                            onchange="changeVersion()"
+                    >
+                        <option value="1.1" selected>v1.1</option>
+                        <option value="1.0">v1.0</option>
+                    </select>
                 </div>
-                <div class="difficulty"
-                     onclick="rotateThroughDifficultyClockwise(this)"
-                     oncontextmenu="rotateThroughDifficultyCounterClockwise(this)"
+                <div class="header">
+                    <img src="icons/logo.svg" style="margin-bottom: 10px;" alt="">
+                    <span>Bingo Card Randomizer</span>
+
+                </div>
+                <div class="difficulty optionsButton"
+                     onclick="rotateThroughDifficultyClockwise()"
+                     oncontextmenu="rotateThroughDifficultyCounterClockwise()"
                 >
-                    <img src="" class="difficultyIcon">
+                    <img src="" class="difficultyIcon" alt="">
                     <div class="difficultyText">
                         <div class="difficultyName">Hammer Bro</div>
                         <div class="difficultyNickname">Normal</div>
@@ -97,8 +109,9 @@
                     </div>
                 </div>
                 <div class="seed">
-                    <input type="text" 
-                           id="seedInput" 
+                    <label for="seedInput"></label>
+                    <input type="text"
+                           id="seedInput"
                            placeholder="Seed"
                            onblur="updateSeed()"
                     >
