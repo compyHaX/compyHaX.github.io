@@ -1870,28 +1870,28 @@ const allItems = [
         "version": "1.1",
         "items": [
             {
-                "name": "Bowser Doors ? and ?",
+                "name": "Bowser Doors ? AND ?",
                 "difficulty": 5,
                 "type": "bowserDoor",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Bowser Doors ? and ?",
+                "name": "Bowser Doors ? AND ?",
                 "difficulty": 5,
                 "type": "bowserDoor",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Bowser Doors ? and ?",
+                "name": "Bowser Doors ? AND ?",
                 "difficulty": 5,
                 "type": "bowserDoor",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Bowser Doors ? and ?",
+                "name": "Bowser Doors ? AND ?",
                 "difficulty": 5,
                 "type": "bowserDoor",
                 "min": null,
@@ -2045,21 +2045,21 @@ const allItems = [
                 "max": 5
             },
             {
-                "name": "? at Goal Post",
+                "name": "? At Goal Post",
                 "difficulty": 7,
                 "type": "or",
                 "min": "1 Star",
                 "max": "50 Stars"
             },
             {
-                "name": "50 coins in ? different levels",
+                "name": "Collect 50 Coins In ? Levels",
                 "difficulty": 3,
                 "type": "dynamic",
                 "min": 2,
                 "max": 3
             },
             {
-                "name": "Die to Lava in ? Worlds",
+                "name": "Die To Lava In ? Worlds",
                 "difficulty": 5,
                 "type": "dynamic",
                 "min": 3,
@@ -2136,7 +2136,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "1 Level as Small Mario (No Star World)",
+                "name": "1 Level As SmAll Mario (No Star World)",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
@@ -2157,21 +2157,21 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "100.000 Points",
+                "name": "100,000 Points",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "2 levels all yoshi coins",
+                "name": "2 Levels All Yoshi Coins",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "2 levels without coins",
+                "name": "2 Levels Without Coins",
                 "difficulty": 1,
                 "type": "replaced",
                 "min": null,
@@ -2185,14 +2185,14 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "200 coins",
+                "name": "200 Coins",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "4 Sublevels",
+                "name": "4 Subareas",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
@@ -2206,49 +2206,49 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "5 lives in world 1",
+                "name": "5 Lives In World 1",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All berries in world 1 (22)",
+                "name": "All Berries In World 1 (22)",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All sublevels in World 1 (4)",
+                "name": "All Subareas In World 1 (4)",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All yoshi coins in world 1",
+                "name": "All Yoshi Coins In World 1",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Complete both exits of a level",
+                "name": "Complete Both Exits Of A Level",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill 2 Different Types of Chucks",
+                "name": "Kill 2 Different Types Of Chucks",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Eat a Pokey",
+                "name": "Eat A Pokey",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
@@ -2269,7 +2269,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "0 Lives in Bonus game",
+                "name": "0 Lives In Bonus Game",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
@@ -2283,7 +2283,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "1 Life from a Bonus Block",
+                "name": "1 Life From A Bonus Block",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
@@ -2297,7 +2297,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "1 Starworld Entrance",
+                "name": "1 Star World Entrance",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
@@ -2325,14 +2325,14 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "2 levels all yoshi coins in world 2",
+                "name": "2 Levels All Yoshi Coins In World 2",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "2 lives in 3 levels (6)",
+                "name": "2 Lives In 3 Levels (6)",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
@@ -2353,14 +2353,14 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "2 Sublevels in 2 worlds (4)",
+                "name": "2 Subareas In 2 Worlds (4)",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "200.000 Points",
+                "name": "200,000 Points",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
@@ -2402,35 +2402,35 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "5 lives in world 2",
+                "name": "5 Lives In World 2",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All yoshi coins of 1 level in 2 worlds (2)",
+                "name": "All Yoshi Coins Of 1 Level In 2 Worlds (2)",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All yoshi coins of 2 levels in 2 worlds (4)",
+                "name": "All Yoshi Coins Of 2 Levels In 2 Worlds (4)",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Collect 50 coins in 2 different levels",
+                "name": "Collect 50 Coins In 2 Different Levels",
                 "difficulty": 2,
                 "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Complete both exits of 3 levels",
+                "name": "Complete Both Exits Of 3 Levels",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
@@ -2451,21 +2451,21 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Kill 3 different types of chucks",
+                "name": "Kill 3 Different Types Of Chucks",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a non-boss Big Boo",
+                "name": "Kill A Non-Boss Big Boo",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a Swoop (bat)",
+                "name": "Kill A Swoop (Bat)",
                 "difficulty": 2,
                 "type": "static",
                 "min": null,
@@ -2479,7 +2479,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "1 Star in 2 worlds (Power-up)",
+                "name": "1 Star In 2 Worlds (Power-Up)",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
@@ -2500,7 +2500,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "2 Lives from Bonus blocks",
+                "name": "2 Lives From Bonus blocks",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
@@ -2528,14 +2528,14 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "3 levels without coins",
+                "name": "3 Levels Without Coins",
                 "difficulty": 3,
                 "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
-                "name": "3 lives in 3 levels (9)",
+                "name": "3 Lives In 3 Levels (9)",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
@@ -2549,49 +2549,49 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "3 Sublevels in 2 worlds (6)",
+                "name": "3 Subareas In 2 Worlds (6)",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "350.000 Points",
+                "name": "350,000 Points",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "4 levels without coins",
+                "name": "4 Levels Without Coins",
                 "difficulty": 3,
                 "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
-                "name": "4 vines in a world",
+                "name": "4 Vines In A World",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "5 lives in star world",
+                "name": "5 Lives In Star World",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "5 vines",
+                "name": "5 Vines",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "6 levels all yoshi coins",
+                "name": "6 Levels All Yoshi Coins",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
@@ -2605,7 +2605,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "6 Sublevels",
+                "name": "6 Subareas",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
@@ -2619,70 +2619,70 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "600 coins",
+                "name": "600 Coins",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "8 vines",
+                "name": "8 Vines",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All berries in world 2 (5)",
+                "name": "All Berries In World 2 (5)",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All Message Blocks in world 2 (5)",
+                "name": "All Message Blocks In World 2 (5)",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All Secret Exits in world 2",
+                "name": "All Secret Exits In World 2",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All structures in World 2 (4)",
+                "name": "All Structures In World 2 (4)",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All yoshi coins of 3 levels in 2 worlds (6)",
+                "name": "All Yoshi Coins Of 3 Levels In 2 Worlds (6)",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Both exits of 2 levels in 2 worlds (4)",
+                "name": "Both Exits Of 2 Levels In 2 Worlds (4)",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Collect 50 coins in 3 different levels",
+                "name": "Collect 50 Coins In 3 Different Levels",
                 "difficulty": 3,
                 "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Complete both exits of 5 levels",
+                "name": "Complete Both Exits Of 5 Levels",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
@@ -2696,7 +2696,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Eat a disco shell",
+                "name": "Eat A Disco Shell",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
@@ -2724,84 +2724,84 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Hit a gray P switch",
+                "name": "Hit A Gray P Switch",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Hit all 3 types of P's",
+                "name": "Hit All 3 Types Of P's",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill 4 different types of chucks",
+                "name": "Kill 4 Different Types Of Chucks",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a chuck in 4 levels",
+                "name": "Kill A Chuck In 4 Levels",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a Hammer Brother",
+                "name": "Kill A Hammer Brother",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "1 Autoscroller, No Subareas",
+                "name": "1 Auto-Scroller, No Subareas",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "1 Star in 3 worlds (Power-up)",
+                "name": "1 Star In 3 Worlds (Power-Up)",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "1 Star in 4 worlds (Power-up)",
+                "name": "1 Star In 4 Worlds (Power-Up)",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "10 vines",
+                "name": "10 Vines",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "2 Castles and 2 Switch Palaces",
+                "name": "2 Castles And 2 Switch Palaces",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "2 Starworld entrances",
+                "name": "2 Star World Entrances",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "2 Sublevels in 3 worlds (6)",
+                "name": "2 Subareas In 3 Worlds (6)",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
@@ -2829,14 +2829,14 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "3 lives in 4 levels (12)",
+                "name": "3 Lives In 4 Levels (12)",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "3 vines in 2 worlds (6)",
+                "name": "3 Vines In 2 Worlds (6)",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
@@ -2857,7 +2857,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "8 levels all yoshi coins",
+                "name": "8 Levels All Yoshi Coins",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
@@ -2871,63 +2871,63 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "8 Sublevels",
+                "name": "8 Subareas",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All springs in world 3 (2)",
+                "name": "All Springs In World 3 (2)",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Vine in Star World 5",
+                "name": "Vine In Star World 5",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All vines in world 3 (5)",
+                "name": "All Vines In World 3 (5)",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Both exits of 1 level in 3 worlds (3)",
+                "name": "Both Exits Of 1 Level In 3 Worlds (3)",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Both exits of 3 levels in 2 worlds (6)",
+                "name": "Both Exits Of 3 Levels In 2 Worlds (6)",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Both exits of 5 levels (No Star World)",
+                "name": "Both Exits Of 5 Levels (No Star World)",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Both exits of 7 levels",
+                "name": "Both Exits Of 7 Levels",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Die to Lava in 3 Worlds",
+                "name": "Die To Lava In 3 Worlds",
                 "difficulty": 4,
                 "type": "replaced",
                 "min": null,
@@ -2941,42 +2941,42 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Feed all 5 yoshis",
+                "name": "Feed All 5 Yoshis",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Hit a note block",
+                "name": "Hit A Note Block",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill 2 Enemies with 1 Yellow Yoshi Stomp",
+                "name": "Kill 2 Enemies With 1 Yellow Yoshi Stomp",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a chuck in 2 levels of world 3",
+                "name": "Kill A Chuck In 2 Levels Of World 3",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a Lakitu in a pipe",
+                "name": "Kill A Lakitu In A Pipe",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a splitting chuck",
+                "name": "Kill A Splitting Chuck",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
@@ -2997,7 +2997,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "1 P-Balloon in 2 Worlds",
+                "name": "1 P-Balloon In 2 Worlds",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
@@ -3011,7 +3011,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "10 levels all yoshi coins",
+                "name": "10 Levels All Yoshi Coins",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
@@ -3025,14 +3025,14 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "10 Sublevels",
+                "name": "10 Subareas",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "1000 coins",
+                "name": "1000 Coins",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
@@ -3053,7 +3053,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "3 Lives from Bonus blocks",
+                "name": "3 Lives From Bonus blocks",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
@@ -3074,14 +3074,14 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "5 levels without coins",
+                "name": "5 Levels Without Coins",
                 "difficulty": 5,
                 "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
-                "name": "5 lives in world 3",
+                "name": "5 Lives In World 3",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
@@ -3102,91 +3102,91 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "All sublevels in World 3 (4)",
+                "name": "All Subareas In World 3 (4)",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Message Block (1) and Vines (6) in Gnarly",
+                "name": "Message Block (1) AND Vines (6) In Gnarly",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All yoshi coins of 3 levels in 3 worlds (9)",
+                "name": "All Yoshi Coins Of 3 Levels In 3 Worlds (9)",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All Yoshi Coins of 6 Level in 1 Worlds (6)",
+                "name": "All Yoshi Coins Of 6 Level In 1 Worlds (6)",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Both exits of 2 levels in 3 worlds (6)",
+                "name": "Both Exits Of 2 Levels In 3 Worlds (6)",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Bowser Castle door 1 and 5",
+                "name": "Bowser Castle Door 1 AND 5",
                 "difficulty": 5,
                 "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Bowser Castle doors 2 and 6",
+                "name": "Bowser Castle Doors 2 AND 6",
                 "difficulty": 5,
                 "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Bowser Castle doors 3 and 7",
+                "name": "Bowser Castle Doors 3 AND 7",
                 "difficulty": 5,
                 "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Bowser Castle doors 4 and 8",
+                "name": "Bowser Castle Doors 4 AND 8",
                 "difficulty": 5,
                 "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Collect 50 coins in 4 different levels",
+                "name": "Collect 50 Coins In 4 Different Levels",
                 "difficulty": 5,
                 "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Complete both exits of 9 levels",
+                "name": "Complete Both Exits Of 9 Levels",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Die to Lava in 4 Worlds",
+                "name": "Die To Lava In 4 Worlds",
                 "difficulty": 5,
                 "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Eat a Blargg (Lava enemy)",
+                "name": "Eat A Blargg (Lava Enemy)",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
@@ -3200,28 +3200,28 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Hit 2 gray P switches",
+                "name": "Hit 2 Gray P Switches",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill 2 chucks in 3 worlds",
+                "name": "Kill 2 Chucks In 3 Worlds",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a bouncing chuck",
+                "name": "Kill A Bouncing Chuck",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a Pufferfish",
+                "name": "Kill A Pufferfish",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
@@ -3235,35 +3235,35 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Starworld All Exits (10) OR 1 Fortress",
+                "name": "Star World All Exits (10) OR 1 Fortress",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Yoshi Wings in Way Cool",
+                "name": "Yoshi Wings In Way Cool",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "1 Sublevel in 4 worlds (4)",
+                "name": "1 SubLevel In 4 Worlds (4)",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "14 vines",
+                "name": "14 Vines",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "3 Starworld entrances",
+                "name": "3 Star World Entrances",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
@@ -3298,14 +3298,14 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "5 lives in special world",
+                "name": "5 Lives In Special World",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "5 lives in world 4",
+                "name": "5 Lives In World 4",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
@@ -3319,7 +3319,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "500.000 Points",
+                "name": "500,000 Points",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
@@ -3333,98 +3333,98 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "All Berries in Cookie Mountain (2)",
+                "name": "All Berries In Cookie Mountain (2)",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All sublevels in special world (2)",
+                "name": "All Subareas In Special World (2)",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Vine in Cookie Mountain (1)",
+                "name": "Vine In Cookie Mountain (1)",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All Yoshi Coins of 1 Level in 5 Worlds (5)",
+                "name": "All Yoshi Coins Of 1 Level In 5 Worlds (5)",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All yoshi coins of 2 levels in 4 worlds (8)",
+                "name": "All Yoshi Coins Of 2 Levels In 4 Worlds (8)",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Eat a Disco Shell in 3 Worlds",
+                "name": "Eat A Disco Shell In 3 Worlds",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Eat a Wiggler",
+                "name": "Eat A Wiggler",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Forest of Illusion 1 (Both exits)",
+                "name": "Forest Of Illusion 1 (Both Exits)",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a chuck in 2 levels of special world",
+                "name": "Kill A Chuck In 2 Levels Of Special World",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a Pokey in 2 Levels",
+                "name": "Kill A Pokey In 2 Levels",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a Sumo Bro",
+                "name": "Kill A Sumo Bro",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Reach Castle 4 from Butterbridge",
+                "name": "Reach Castle 4 From Butter Bridge",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Reach Castle 4 from Cookie Mountain",
+                "name": "Reach Castle 4 From Cookie Mountain",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Star World Entrance in World 4",
+                "name": "Star World Entrance In World 4",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
@@ -3445,35 +3445,35 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Yoshi wings on Cheese Bridge Area",
+                "name": "Yoshi Wings On Cheese Bridge Area",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "\"111\" on Timer at Level End",
+                "name": "\"111\" On Timer At Level End",
                 "difficulty": 7,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "1 at Goal Post",
+                "name": "1 At Goal Post",
                 "difficulty": 7,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "1 Star in 5 Worlds (Power-up)",
+                "name": "1 Star In 5 Worlds (Power-Up)",
                 "difficulty": 7,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "2 Autoscrollers, No Subareas",
+                "name": "2 Auto-Scrollers, No Subareas",
                 "difficulty": 7,
                 "type": "static",
                 "min": null,
@@ -3487,7 +3487,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "13 Fireball Kills in Vanilla Dome 1",
+                "name": "13 Fireball Kills In Vanilla Dome 1",
                 "difficulty": 7,
                 "type": "static",
                 "min": null,
@@ -3501,14 +3501,14 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "3 Lives in one jump",
+                "name": "3 Lives In One Jump",
                 "difficulty": 7,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "50 at Goal Post",
+                "name": "50 At Goal Post",
                 "difficulty": 7,
                 "type": "static",
                 "min": null,
@@ -3522,42 +3522,42 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Beat the game",
+                "name": "Beat The Game",
                 "difficulty": 7,
                 "type": "beatGame",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Donut Plains 1-4, No Cape or Fire Flower",
+                "name": "Donut Plains 1-4, No Cape Or Fire Flower",
                 "difficulty": 7,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Eat 22 Koopas in Star World 4",
+                "name": "Eat 22 Koopas In Star World 4",
                 "difficulty": 7,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Game over",
+                "name": "Game Over",
                 "difficulty": 7,
-                "type": "gameOver",
+                "type": "GameOver",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Tubular no P Balloon",
+                "name": "Tubular No P Balloon",
                 "difficulty": 7,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "1 P-Balloon in 3 Worlds",
+                "name": "1 P-Balloon In 3 Worlds",
                 "difficulty": 8,
                 "type": "static",
                 "min": null,
@@ -3599,21 +3599,21 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "All springs in special world (3)",
+                "name": "All Springs In Special World (3)",
                 "difficulty": 8,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All Springs in World 5 (3)",
+                "name": "All Springs In World 5 (3)",
                 "difficulty": 8,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All Yoshi Coins of 1 Level in 6 Worlds (6)",
+                "name": "All Yoshi Coins Of 1 Level In 6 Worlds (6)",
                 "difficulty": 8,
                 "type": "static",
                 "min": null,
@@ -3627,7 +3627,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Both Exits of 1 Level in 4 Worlds",
+                "name": "Both Exits Of 1 Level In 4 Worlds",
                 "difficulty": 8,
                 "type": "static",
                 "min": null,
@@ -3641,28 +3641,28 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Kill 1 Chuck in 6 Worlds",
+                "name": "Kill 1 Chuck In 6 Worlds",
                 "difficulty": 8,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a Galoomba in 2 Worlds",
+                "name": "Kill A Galoomba In 2 Worlds",
                 "difficulty": 8,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a Whistling Chuck",
+                "name": "Kill A Whistling Chuck",
                 "difficulty": 8,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill 5 Urchins in Forest of Illusion 2",
+                "name": "Kill 5 Urchins In Forest Of Illusion 2",
                 "difficulty": 8,
                 "type": "static",
                 "min": null,
@@ -3690,28 +3690,28 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "All 1-Ups in Forest Secret Area (4)",
+                "name": "All 1-Ups In Forest Secret Area (4)",
                 "difficulty": 9,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All berries special world (29)",
+                "name": "All Berries Special World (29)",
                 "difficulty": 9,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All Secret Exits in World 5 (5)",
+                "name": "All Secret Exits In World 5 (5)",
                 "difficulty": 9,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "All Yoshi Coins in 4 Levels of World 5",
+                "name": "All Yoshi Coins In 4 Levels Of World 5",
                 "difficulty": 9,
                 "type": "static",
                 "min": null,
@@ -3746,7 +3746,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Eat a Wiggler in 2 Worlds",
+                "name": "Eat A Wiggler In 2 Worlds",
                 "difficulty": 9,
                 "type": "static",
                 "min": null,
@@ -3795,7 +3795,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Eat All 4 Koopa Colours in 1 Level",
+                "name": "Eat All 4 Koopa Colors In 1 Level",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
@@ -3816,42 +3816,42 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Kill 3 Types of Lakitus in Forest of Illusion 4",
+                "name": "Kill 3 Types Of Lakitus In Forest Of Illusion 4",
                 "difficulty": 8,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill a Hammer Bro in 2 Worlds",
+                "name": "Kill A Hammer Bro In 2 Worlds",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "4 Starworld Entrances",
+                "name": "4 Star World Entrances",
                 "difficulty": 9,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "2 Structures in World 5",
+                "name": "2 Structures In World 5",
                 "difficulty": 8,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "2 Structures in 3 Worlds",
+                "name": "2 Structures In 3 Worlds",
                 "difficulty": 4,
                 "type": "static",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Kill all Climbing Koopas (46)",
+                "name": "Kill All Climbing Koopas (46)",
                 "difficulty": 8,
                 "type": "static",
                 "min": null,
@@ -3879,7 +3879,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Complete 1-Up Chambers in Castles 2 and 4",
+                "name": "Complete 1-Up Chambers In Castles 2 AND 4",
                 "difficulty": 7,
                 "type": "static",
                 "min": null,
