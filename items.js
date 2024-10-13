@@ -2500,7 +2500,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "2 Lives From Bonus blocks",
+                "name": "2 Lives From Bonus Blocks",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
@@ -2724,7 +2724,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Hit A Gray P Switch",
+                "name": "Hit A Gray P-Switch",
                 "difficulty": 3,
                 "type": "static",
                 "min": null,
@@ -3032,7 +3032,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "1000 Coins",
+                "name": "1,000 Coins",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
@@ -3053,7 +3053,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "3 Lives From Bonus blocks",
+                "name": "3 Lives From Bonus Blocks",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
@@ -3200,7 +3200,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Hit 2 Gray P Switches",
+                "name": "Hit 2 Gray P-Switches",
                 "difficulty": 5,
                 "type": "static",
                 "min": null,
@@ -3545,12 +3545,12 @@ const allItems = [
             {
                 "name": "Game Over",
                 "difficulty": 7,
-                "type": "GameOver",
+                "type": "gameOver",
                 "min": null,
                 "max": null
             },
             {
-                "name": "Tubular No P Balloon",
+                "name": "Tubular No P-Balloon",
                 "difficulty": 7,
                 "type": "static",
                 "min": null,
