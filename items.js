@@ -2255,7 +2255,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "World 1 All Exits (5)",
+                "name": "World 1 All Exits (6)",
                 "difficulty": 1,
                 "type": "static",
                 "min": null,
@@ -2313,14 +2313,14 @@ const allItems = [
             {
                 "name": "2 Ghost Houses AND 2 Switch Palaces",
                 "difficulty": 2,
-                "type": "static",
+                "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
                 "name": "2 Ghost Houses OR 2 Switch Palaces",
                 "difficulty": 2,
-                "type": "static",
+                "type": "replaced",
                 "min": null,
                 "max": null
             },
@@ -2383,7 +2383,7 @@ const allItems = [
             {
                 "name": "4 Levels All Yoshi Coins",
                 "difficulty": 2,
-                "type": "static",
+                "type": "replaced",
                 "min": null,
                 "max": null
             },
@@ -2593,7 +2593,7 @@ const allItems = [
             {
                 "name": "6 Levels All Yoshi Coins",
                 "difficulty": 3,
-                "type": "static",
+                "type": "replaced",
                 "min": null,
                 "max": null
             },
@@ -2767,7 +2767,7 @@ const allItems = [
             },
             {
                 "name": "1 Star In 3 Worlds (Power-Up)",
-                "difficulty": 4,
+                "difficulty": 3,
                 "type": "static",
                 "min": null,
                 "max": null
@@ -2859,7 +2859,7 @@ const allItems = [
             {
                 "name": "8 Levels All Yoshi Coins",
                 "difficulty": 4,
-                "type": "static",
+                "type": "replaced",
                 "min": null,
                 "max": null
             },
@@ -3013,7 +3013,7 @@ const allItems = [
             {
                 "name": "10 Levels All Yoshi Coins",
                 "difficulty": 5,
-                "type": "static",
+                "type": "replaced",
                 "min": null,
                 "max": null
             },
@@ -3054,7 +3054,7 @@ const allItems = [
             },
             {
                 "name": "3 Lives From Bonus Blocks",
-                "difficulty": 5,
+                "difficulty": 6,
                 "type": "static",
                 "min": null,
                 "max": null
@@ -3328,7 +3328,7 @@ const allItems = [
             {
                 "name": "9 Structures",
                 "difficulty": 6,
-                "type": "static",
+                "type": "replaced",
                 "min": null,
                 "max": null
             },
@@ -3376,14 +3376,7 @@ const allItems = [
             },
             {
                 "name": "Eat A Wiggler",
-                "difficulty": 6,
-                "type": "static",
-                "min": null,
-                "max": null
-            },
-            {
-                "name": "Forest Of Illusion 1 (Both Exits)",
-                "difficulty": 6,
+                "difficulty": 8,
                 "type": "static",
                 "min": null,
                 "max": null
@@ -3431,7 +3424,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Vanilla Dome 4 OR Castle 4",
+                "name": "Castle 3 OR Castle 4",
                 "difficulty": 6,
                 "type": "static",
                 "min": null,
@@ -3566,14 +3559,14 @@ const allItems = [
             {
                 "name": "10 Structures",
                 "difficulty": 8,
-                "type": "static",
+                "type": "replaced",
                 "min": null,
                 "max": null
             },
             {
                 "name": "12 Levels All Yoshi Coins",
                 "difficulty": 8,
-                "type": "static",
+                "type": "replaced",
                 "min": null,
                 "max": null
             },
@@ -3802,7 +3795,7 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "Unlock Special World the Intended Way (Switch Palace Blocks)",
+                "name": "Unlock Special World the Intended Way",
                 "difficulty": 9,
                 "type": "static",
                 "min": null,
