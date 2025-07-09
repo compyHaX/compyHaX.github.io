@@ -3571,13 +3571,6 @@ const allItems = [
                 "max": null
             },
             {
-                "name": "35 Exits",
-                "difficulty": 8,
-                "type": "static",
-                "min": null,
-                "max": null
-            },
-            {
                 "name": "4 Ghost Houses",
                 "difficulty": 8,
                 "type": "static",
